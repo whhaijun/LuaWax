@@ -1,0 +1,358 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0061819B1BCF578C00B9F155 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0061819A1BCF578C00B9F155 /* main.m */; };
+		0061819E1BCF578C00B9F155 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0061819D1BCF578C00B9F155 /* AppDelegate.m */; };
+		006181A11BCF578C00B9F155 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 006181A01BCF578C00B9F155 /* ViewController.m */; };
+		006181A41BCF578C00B9F155 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 006181A21BCF578C00B9F155 /* Main.storyboard */; };
+		006181A61BCF578C00B9F155 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 006181A51BCF578C00B9F155 /* Assets.xcassets */; };
+		006181A91BCF578C00B9F155 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 006181A71BCF578C00B9F155 /* LaunchScreen.storyboard */; };
+		F79CF324FBE8D6534706A044 /* libPods-TestWaxPod.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A852C7DAF310D4E9795BB7 /* libPods-TestWaxPod.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		006181961BCF578C00B9F155 /* TestWaxPod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestWaxPod.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0061819A1BCF578C00B9F155 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0061819C1BCF578C00B9F155 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0061819D1BCF578C00B9F155 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0061819F1BCF578C00B9F155 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		006181A01BCF578C00B9F155 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		006181A31BCF578C00B9F155 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		006181A51BCF578C00B9F155 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		006181A81BCF578C00B9F155 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		006181AA1BCF578C00B9F155 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6471E43F620A34CEAD0DA9D4 /* Pods-TestWaxPod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestWaxPod.release.xcconfig"; path = "Target Support Files/Pods-TestWaxPod/Pods-TestWaxPod.release.xcconfig"; sourceTree = "<group>"; };
+		C1A852C7DAF310D4E9795BB7 /* libPods-TestWaxPod.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestWaxPod.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E99D7348D27FA9BAD8838BB5 /* Pods-TestWaxPod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestWaxPod.debug.xcconfig"; path = "Target Support Files/Pods-TestWaxPod/Pods-TestWaxPod.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		006181931BCF578C00B9F155 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F79CF324FBE8D6534706A044 /* libPods-TestWaxPod.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0061818D1BCF578C00B9F155 = {
+			isa = PBXGroup;
+			children = (
+				006181981BCF578C00B9F155 /* TestWaxPod */,
+				006181971BCF578C00B9F155 /* Products */,
+				C0680AA3D2B8071142D80D94 /* Pods */,
+				4E413D79117EA49059377BC0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		006181971BCF578C00B9F155 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				006181961BCF578C00B9F155 /* TestWaxPod.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		006181981BCF578C00B9F155 /* TestWaxPod */ = {
+			isa = PBXGroup;
+			children = (
+				0061819C1BCF578C00B9F155 /* AppDelegate.h */,
+				0061819D1BCF578C00B9F155 /* AppDelegate.m */,
+				0061819F1BCF578C00B9F155 /* ViewController.h */,
+				006181A01BCF578C00B9F155 /* ViewController.m */,
+				006181A21BCF578C00B9F155 /* Main.storyboard */,
+				006181A51BCF578C00B9F155 /* Assets.xcassets */,
+				006181A71BCF578C00B9F155 /* LaunchScreen.storyboard */,
+				006181AA1BCF578C00B9F155 /* Info.plist */,
+				006181991BCF578C00B9F155 /* Supporting Files */,
+			);
+			path = TestWaxPod;
+			sourceTree = "<group>";
+		};
+		006181991BCF578C00B9F155 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0061819A1BCF578C00B9F155 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4E413D79117EA49059377BC0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C1A852C7DAF310D4E9795BB7 /* libPods-TestWaxPod.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0680AA3D2B8071142D80D94 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E99D7348D27FA9BAD8838BB5 /* Pods-TestWaxPod.debug.xcconfig */,
+				6471E43F620A34CEAD0DA9D4 /* Pods-TestWaxPod.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		006181951BCF578C00B9F155 /* TestWaxPod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 006181AD1BCF578C00B9F155 /* Build configuration list for PBXNativeTarget "TestWaxPod" */;
+			buildPhases = (
+				8CA7004EF7AF67FC4874E9CE /* [CP] Check Pods Manifest.lock */,
+				006181921BCF578C00B9F155 /* Sources */,
+				006181931BCF578C00B9F155 /* Frameworks */,
+				006181941BCF578C00B9F155 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestWaxPod;
+			productName = TestWaxPod;
+			productReference = 006181961BCF578C00B9F155 /* TestWaxPod.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0061818E1BCF578C00B9F155 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = test.jz.com;
+				TargetAttributes = {
+					006181951BCF578C00B9F155 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 006181911BCF578C00B9F155 /* Build configuration list for PBXProject "TestWaxPod" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0061818D1BCF578C00B9F155;
+			productRefGroup = 006181971BCF578C00B9F155 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				006181951BCF578C00B9F155 /* TestWaxPod */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		006181941BCF578C00B9F155 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				006181A91BCF578C00B9F155 /* LaunchScreen.storyboard in Resources */,
+				006181A61BCF578C00B9F155 /* Assets.xcassets in Resources */,
+				006181A41BCF578C00B9F155 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8CA7004EF7AF67FC4874E9CE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestWaxPod-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		006181921BCF578C00B9F155 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				006181A11BCF578C00B9F155 /* ViewController.m in Sources */,
+				0061819E1BCF578C00B9F155 /* AppDelegate.m in Sources */,
+				0061819B1BCF578C00B9F155 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		006181A21BCF578C00B9F155 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				006181A31BCF578C00B9F155 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		006181A71BCF578C00B9F155 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				006181A81BCF578C00B9F155 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		006181AB1BCF578C00B9F155 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		006181AC1BCF578C00B9F155 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		006181AE1BCF578C00B9F155 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E99D7348D27FA9BAD8838BB5 /* Pods-TestWaxPod.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TestWaxPod/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jz.test.TestWaxPod;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		006181AF1BCF578C00B9F155 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6471E43F620A34CEAD0DA9D4 /* Pods-TestWaxPod.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TestWaxPod/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jz.test.TestWaxPod;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		006181911BCF578C00B9F155 /* Build configuration list for PBXProject "TestWaxPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				006181AB1BCF578C00B9F155 /* Debug */,
+				006181AC1BCF578C00B9F155 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		006181AD1BCF578C00B9F155 /* Build configuration list for PBXNativeTarget "TestWaxPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				006181AE1BCF578C00B9F155 /* Debug */,
+				006181AF1BCF578C00B9F155 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0061818E1BCF578C00B9F155 /* Project object */;
+}

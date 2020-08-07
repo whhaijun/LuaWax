@@ -1,0 +1,21 @@
+PODS:
+  - wax (1.0.5)
+
+DEPENDENCIES:
+  - wax (from `https://github.com/philonpang/wax.git`)
+
+EXTERNAL SOURCES:
+  wax:
+    :git: https://github.com/philonpang/wax.git
+
+CHECKOUT OPTIONS:
+  wax:
+    :commit: d6ab2b74a241da23045d9d96d79239b0d118249d
+    :git: https://github.com/philonpang/wax.git
+
+SPEC CHECKSUMS:
+  wax: 50994a36322f4b01b6422ea9a39bcfbd6116e1c3
+
+PODFILE CHECKSUM: 0cd2eeb62f682fe7e601dddac1615773e180fe9d
+
+COCOAPODS: 1.9.1

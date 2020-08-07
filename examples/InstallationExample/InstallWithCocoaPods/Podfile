@@ -1,0 +1,15 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, '9.0'
+
+
+target 'TestWaxPod' do
+	# platform:ios, '9.0'
+	# pod 'wax', :git=>'https://github.com/alibaba/wax.git', :tag=>'1.1.0'
+
+	 pod 'wax', :git => 'https://github.com/philonpang/wax.git'
+    	# pod 'mobdebug', :git  => 'https://github.com/philonpang/mobdebug.git'
+
+    #pod 'wax', :git=>'git@github.com:alibaba/wax.git', :commit=>'5c762ad'
+    #pod 'wax', :path=>'../../../'
+end

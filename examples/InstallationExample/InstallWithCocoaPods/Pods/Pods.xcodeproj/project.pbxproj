@@ -1,0 +1,1035 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		004C0F41CD295C9B8DEDCD42FC9A5B9B /* linit.c in Sources */ = {isa = PBXBuildFile; fileRef = D4E0BB18963741D6C9C33368FEE5FBC8 /* linit.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		04651BABA4E73B68177AB0E03DA7EAF8 /* print.c in Sources */ = {isa = PBXBuildFile; fileRef = B44FC2D83958DF5BB0B8609A9A82A4F8 /* print.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		071D48BBE4E9D648B3059AD80191D2BF /* wax_server.h in Headers */ = {isa = PBXBuildFile; fileRef = 1429A8CCD8379AA1D341D3BE500AF51E /* wax_server.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0C0B5CC86E2BBD0F6AA1EB0C45DD653E /* lstring.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A9EB06425326EF9EF20C7AC48074FB6 /* lstring.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		11762075C8BC22540763481FE152354D /* ldo.c in Sources */ = {isa = PBXBuildFile; fileRef = 388DCA75B6AA9452B70C0E05C595CEA5 /* ldo.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		142479AD7AD5AA4606CC97FDAA23A055 /* wax_block.m in Sources */ = {isa = PBXBuildFile; fileRef = D8AF2E792C02249B0EA8E09860E4E1D5 /* wax_block.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1B983E0309EE97F6ECAE679406D1EEDB /* wax_lock.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BF6352CB98934ED948CA95ECB16A7A2 /* wax_lock.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1E84894D73CC56ACF36641EBC68F023A /* lbaselib.c in Sources */ = {isa = PBXBuildFile; fileRef = 2AEE65725264CEAC8CAFFD038610B050 /* lbaselib.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		206E6C491CFA653BC56E10DF69DD9966 /* lauxlib.c in Sources */ = {isa = PBXBuildFile; fileRef = 0A6AED8C28D0E75C5313CBABB73CCC0B /* lauxlib.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		21D7622C9DD893FA22A99D4CA8738D2C /* wax_block_call.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D2FD3F9DA1F156C257A0C1269B30836 /* wax_block_call.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		21E3676C3AA26282C39F04B5CED3120F /* yajl_encode.c in Sources */ = {isa = PBXBuildFile; fileRef = DFBB935AC62E8D4C0124E699D8C1F2D4 /* yajl_encode.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		22E4FB39A9B9431B6B94F3D1F8D04CD7 /* lstring.c in Sources */ = {isa = PBXBuildFile; fileRef = A8AF4D9AA74DE3713175B2D9C369DD45 /* lstring.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		23A23EB7AC5FDCF27544EE917CB64C68 /* wax_instance.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FE6E00497118C20D90F786F6ACAE9F2 /* wax_instance.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		24FB7970A3131D13794553C798F037A6 /* wax_sqlite_operation.h in Headers */ = {isa = PBXBuildFile; fileRef = 1101CCB841672DF22D190C0DFB702049 /* wax_sqlite_operation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		25CB2D967924765041EB1CE80DAB40A3 /* ldblib.c in Sources */ = {isa = PBXBuildFile; fileRef = EDE93346965B611E6C5DD6CA42D7D783 /* ldblib.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2688AD61DDA4BAD5230379C9F020760A /* wax_CGContext.h in Headers */ = {isa = PBXBuildFile; fileRef = CC71BBAC20F851F90DC01CEEAEB86339 /* wax_CGContext.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		274C561083C0C138BDAB4912A5832436 /* wax_sqlite_operation.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C029FA2E19B9386ED32C9E61596EEA /* wax_sqlite_operation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2A9FF2D8A4F9690FDCCB4249BFE11790 /* pthread_lua.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED9BC188FC7B3828F29CC4F58878113 /* pthread_lua.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2B69B2CC7EBFEC670F4243EABF3C64F9 /* wax_block_description.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E1A8F3490B84AA069276DA5EBFC9A45 /* wax_block_description.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2D70B661293CDB9669B6313E57C79FB8 /* yajl_parse.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FDAB26101EF9186F7B8089CCC5ED0A3 /* yajl_parse.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2DBF50161E18088979C2A8FF9AE32193 /* yajl_buf.h in Headers */ = {isa = PBXBuildFile; fileRef = C61643EBD072C2391B2E122662D630B6 /* yajl_buf.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3035AF8777700D4D3003BC74120AA63B /* dispatch_lua.m in Sources */ = {isa = PBXBuildFile; fileRef = C00020B1DF61EC6D2E4AFC45EE95E5C1 /* dispatch_lua.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		33070164425479401F0AE5D924EE9476 /* ltablib.c in Sources */ = {isa = PBXBuildFile; fileRef = A1B0EFA4499916AF8EFDF3D46BE46543 /* ltablib.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3367CDA32CDAD6A6C6C8DC995BF7D590 /* ltable.h in Headers */ = {isa = PBXBuildFile; fileRef = C13D622ADAD7AD893AFA6678D031E9C4 /* ltable.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3444462E2B1850052DC055FD802AFBC1 /* lapi.c in Sources */ = {isa = PBXBuildFile; fileRef = C82AE78EC7B0A6DEFEB1241E18ED2C36 /* lapi.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		34FCE778B652374B3C1EE6E80FA24834 /* ltm.c in Sources */ = {isa = PBXBuildFile; fileRef = 95C9B074CCEB5E34D85F4DFEB6E2550D /* ltm.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		39637B8360215842FE6AAD102D7EA0E4 /* yajl_parser.c in Sources */ = {isa = PBXBuildFile; fileRef = 78A2B3438802AEA8D24D1C6BEE0DAD94 /* yajl_parser.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3A66AFD6135B714D6F4530B8E81C0A1D /* ProtocolLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 13C932047A9080C9E981C4E64E659137 /* ProtocolLoader.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3AB5690F365C7B49FEC1804983ECE28E /* wax_http.m in Sources */ = {isa = PBXBuildFile; fileRef = B9FB97F180DCB4650349DAD9206CD3E9 /* wax_http.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3FAC471543A104DD03DA24FA0D7E7180 /* llimits.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B7593A77511092AE0ACA445D2507C0C /* llimits.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		42BDF87B2B34A07C42C5216F2149CD2F /* lvm.c in Sources */ = {isa = PBXBuildFile; fileRef = A64F2866C7538C55F909C337B723D946 /* lvm.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		487D0CE867A8005E51B5BDDE1DA69BA0 /* yajl_alloc.c in Sources */ = {isa = PBXBuildFile; fileRef = 6647B27A8B3CAFB203E470F8E24D9B26 /* yajl_alloc.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		499C0C2A4E5D6168859E3C39E3439E08 /* wax_helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 73598CF06FFF0B269B0CB682BADDF092 /* wax_helpers.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4DE0B0E0729D2BE44079CEBC5BCF96E0 /* wax_capi.h in Headers */ = {isa = PBXBuildFile; fileRef = CA82AD144121FD1E2F8051759BEFE1D2 /* wax_capi.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		52F23AC3B7F3F35EAAAA5316223BE66C /* lvm.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B100C0B3B1F73D7581AF0A13EE77D12 /* lvm.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		52FBC1AC70803F8C8B8A6B49B25A8506 /* lundump.c in Sources */ = {isa = PBXBuildFile; fileRef = EAE1DE99D978407334F053A5DE9535AF /* lundump.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5ABCA9418F42F6F0669073ECEB42B064 /* wax_filesystem.h in Headers */ = {isa = PBXBuildFile; fileRef = 6329DCDE3BDB14BC6821EB3F31083DFE /* wax_filesystem.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5CFA99AF0196BDCADA13B042F3C88BFE /* yajl_gen.c in Sources */ = {isa = PBXBuildFile; fileRef = EE8E9AE1CA3C8E2EE1BC63CA5F82986B /* yajl_gen.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5ED4B14A6C4C9370AF1077020BD21A67 /* yajl_encode.h in Headers */ = {isa = PBXBuildFile; fileRef = B3D6E7C53EFD946DF466CAD61BAAE3E7 /* yajl_encode.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6357BACDDFB5402BF74CF6BC0DDF7E9F /* ldump.c in Sources */ = {isa = PBXBuildFile; fileRef = 384DBB82A4A2D466CA8786226C93A03E /* ldump.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		653636BE4FA3F90CC22D5A2AA2F5E3E2 /* wax_define.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F9EBFDA5EBAE0561378B6136F49A8C1 /* wax_define.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		66D13A6BCE3B04B8245A54172F9BA25F /* yajl_lex.h in Headers */ = {isa = PBXBuildFile; fileRef = DC5348B20424C1EFEC2CC9BDD611324D /* yajl_lex.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6904C65B15229D75F5358BF4117B9FE1 /* tolua_event.h in Headers */ = {isa = PBXBuildFile; fileRef = 71276A04FA013D2562B66B479D616288 /* tolua_event.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6A7BA0939A24435CFF808F61BD30AD00 /* ldebug.h in Headers */ = {isa = PBXBuildFile; fileRef = DD7BEC1A3EB58457025F24FF0648D3F1 /* ldebug.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6AFFCB14B891140B3C68C59C0EDFFF6B /* ltm.h in Headers */ = {isa = PBXBuildFile; fileRef = 7026716BB625E2B9CDE2F929843D1BF3 /* ltm.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6B99CE70844F839FA0F2AF4DF8AC2E6B /* wax_gc.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BB2CA830E2B80B5331ED49D0D435832 /* wax_gc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		6C6B693E2D331BC7FEB903F9174BA1CE /* wax.m in Sources */ = {isa = PBXBuildFile; fileRef = C546415782B5DF48D94348B606549E8A /* wax.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		6DC5447887BAC63E978D8DD663867839 /* wax_json.h in Headers */ = {isa = PBXBuildFile; fileRef = 55DC28AA9F5B92756B4AADB344201970 /* wax_json.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6EE14B8EC65E423346FDF9FB91269CF2 /* ldo.h in Headers */ = {isa = PBXBuildFile; fileRef = EF4204C19E0ADE9C9C8AB23FD3EFD758 /* ldo.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6F2FC0F38DB78E02FB719D8923EECA30 /* wax_config.m in Sources */ = {isa = PBXBuildFile; fileRef = 789435CA9A7A5675F28C1C1CBF5C740D /* wax_config.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		6FEA1A881E0A3E08714AE052423ED13A /* wax_config.h in Headers */ = {isa = PBXBuildFile; fileRef = 0177505995CAC977693B937CDAE4CA0C /* wax_config.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		70196E0F95FEAEC54AE43B25B69B1E63 /* lparser.h in Headers */ = {isa = PBXBuildFile; fileRef = 65991517DFEAAF139C398F6F25AA433D /* lparser.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		723D46ADD8EDC96BDEC6003E1873D02E /* lgc.h in Headers */ = {isa = PBXBuildFile; fileRef = 40BBD3484B3F0A6008DA1EBAE5598B7F /* lgc.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7403F7E53DCE603B7E8E7454F0A2C839 /* Pods-TestWaxPod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 509B74D9CAC09B42355BA44D2021AF09 /* Pods-TestWaxPod-dummy.m */; };
+		7796C2F45A1E6B605084B1D55D732A4B /* wax_block_call.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B033508297BC7EB86CA581489F35AB /* wax_block_call.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		796103C2810D65919DC796BC0A5CF7E4 /* wax_json.c in Sources */ = {isa = PBXBuildFile; fileRef = 86A51E731DAEAA62F05A27AC31F23FF5 /* wax_json.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7B6D0367E82F215C64846BAE0E416B62 /* lua.h in Headers */ = {isa = PBXBuildFile; fileRef = 1147467560EA5C3D62B43BCEECC1E655 /* lua.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7BE2FD15811238507B042DA22ADCA8CE /* tolua_map.c in Sources */ = {isa = PBXBuildFile; fileRef = E45CBE8A76C2815D45496DBB07EE1158 /* tolua_map.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7FA20A5712877C0BF4246A187948D8EC /* lcode.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E0DB6099ACBB75F0D77E26B2981A723 /* lcode.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8022DB56D0A32D62F3F721E99F266378 /* llex.c in Sources */ = {isa = PBXBuildFile; fileRef = 58EDAEF07DE92FFBFDD401F5F9031829 /* llex.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		819A109932604BD4D4B85E9FD777B9DC /* lfunc.h in Headers */ = {isa = PBXBuildFile; fileRef = 62FFABE80D2E9839A6B594138749BB94 /* lfunc.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		85457C6B0313FA2CB71DD9048F2B8131 /* yajl_buf.c in Sources */ = {isa = PBXBuildFile; fileRef = A10FA14AE6130DDE2A4ADE23F1A1EB1B /* yajl_buf.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		854A220F05F2EAB81B6673BE2074D450 /* lzio.h in Headers */ = {isa = PBXBuildFile; fileRef = 98322EB8B603FE028901DC76B6140C5B /* lzio.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		875116817DC52767B086C087248D4904 /* wax_http_connection.h in Headers */ = {isa = PBXBuildFile; fileRef = 893867B9A16A338E6BE3042BCB20B471 /* wax_http_connection.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8918CE8F7A137D233C1D199BDBEEB04D /* wax_instance.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A23C3F8B171E109FBFFAFEFFBA6D8F /* wax_instance.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		892047F97B952B0EC8C874F6A7744AB5 /* wax_CGTransform.h in Headers */ = {isa = PBXBuildFile; fileRef = 1916D38D2612AB59924A4E872B95A452 /* wax_CGTransform.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		893C26EFC3082F447C8A79EB1C2C8745 /* lcode.c in Sources */ = {isa = PBXBuildFile; fileRef = B0D14EF38EEC88622B17413695BF6CB6 /* lcode.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		8C691C2824D3C626F2260B27C82C1EBB /* wax_CGTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = 5204A6C3A042299E9C18DC72B28460E4 /* wax_CGTransform.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		8DF961E143F9BCCA7C788FB248BFD524 /* lstrlib.c in Sources */ = {isa = PBXBuildFile; fileRef = C09F8485D0D8081E9B4355DDB5B317AF /* lstrlib.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		8E84C56C5332B430CB87EFFF3ACEB583 /* ldebug.c in Sources */ = {isa = PBXBuildFile; fileRef = BF13B43882580F800228926D7D8CEACF /* ldebug.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		8EA44A68C51A669AE8C99953A68FC9B3 /* wax_xml.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA88B0E30E00278C4EB1EC87FFCCC55 /* wax_xml.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		8FF2891ABA6B9FBE1D891FBF87A2E81B /* lopcodes.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C02519B45E6121EB3AA5D422B3F5501 /* lopcodes.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9274954D3693E7F898765FE27466DAF4 /* lobject.h in Headers */ = {isa = PBXBuildFile; fileRef = BF64F80F573D9875EE1144F256D590DF /* lobject.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9461CDE0FE2D696FDFFEB994F2D3F1C8 /* ltable.c in Sources */ = {isa = PBXBuildFile; fileRef = 2C7D581DEB7C411E8E413A9716BD0334 /* ltable.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9BF4795B9403E4D0181DAD74221CD690 /* yajl_common.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C23F1979C279B99417664B66B809CD7 /* yajl_common.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9C59E41E804C94E4B58EB866443313EF /* wax_struct.m in Sources */ = {isa = PBXBuildFile; fileRef = 12F6E0B82A8DE499E4D11E5C23DCF154 /* wax_struct.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A01D7E154F1CB05770A2CC77EE6EAAA5 /* tolua_to.c in Sources */ = {isa = PBXBuildFile; fileRef = 63883A5A6F040DB17D98D4483D66E7C3 /* tolua_to.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A020CCF5CB087B2D73DC7DF1CC48D97C /* lualib.h in Headers */ = {isa = PBXBuildFile; fileRef = 521540249173C4C2BD38EC17DDF265AD /* lualib.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A305C1606A0CD228EF5A8BBAD803B5DD /* lgc.c in Sources */ = {isa = PBXBuildFile; fileRef = BEC42011372C649D162591B5A2806C4C /* lgc.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A385E089E78A93300B34196A9EFE601E /* lstate.h in Headers */ = {isa = PBXBuildFile; fileRef = B54990D7C512C959724A20E897C4971D /* lstate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A3898252F3FA491FEE6F2077E5D8B16F /* wax_block_transfer_pool.m in Sources */ = {isa = PBXBuildFile; fileRef = F42C36BD3E4546573CEA7098E29776CA /* wax_block_transfer_pool.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		AA0F5E10A956C85C0D28D609587487CB /* wax_block_call_pool.h in Headers */ = {isa = PBXBuildFile; fileRef = 27BD502D8C860211F0ECA7B2D12B949D /* wax_block_call_pool.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AAF9355D8BDB5D6447877280455C9543 /* tolua_is.c in Sources */ = {isa = PBXBuildFile; fileRef = B50104B38D5DB4957913F3E7A0E4673B /* tolua_is.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		AE57B8F7E22D93313B0C6AF22BFA9CD2 /* wax_xml.h in Headers */ = {isa = PBXBuildFile; fileRef = 819AC24CEAC51E582F8F31E3EAD3635B /* wax_xml.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AE8C6A0C9904B43C08E941897ABFE76C /* yajl_bytestack.h in Headers */ = {isa = PBXBuildFile; fileRef = CCF7EA5654645139F8E976A0E6C608B2 /* yajl_bytestack.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AF542B134F04DCBD08922B87AEE8756C /* wax-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AD27E4E92E4599F5FF6878554A07B0B3 /* wax-dummy.m */; };
+		AF9726EAEAF27C0C4899A19E3704EAA9 /* lopcodes.h in Headers */ = {isa = PBXBuildFile; fileRef = 312BEFF7D9ECCE890A69B27C8ACED6D7 /* lopcodes.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AFCE325331B0D4568A8F07D2DBF1D155 /* wax_class.m in Sources */ = {isa = PBXBuildFile; fileRef = 76943F40FFCB17D38EA7DA3118AFC62C /* wax_class.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B32A45CFE60679F3BC4CB651718A1C45 /* luaconf.h in Headers */ = {isa = PBXBuildFile; fileRef = A036C2F1F9F0D35DFFACCFA8C4198153 /* luaconf.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B7B89F4F2A678C456C233F0DB6AE1F5C /* NSObject+TBIvarAccess.h in Headers */ = {isa = PBXBuildFile; fileRef = 919D4EB749BE258E2CB75542DD75EDE1 /* NSObject+TBIvarAccess.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B813522CA39E7103A770D37864C6D21C /* llex.h in Headers */ = {isa = PBXBuildFile; fileRef = 50AE367E03DBEA139194C20595BB34EF /* llex.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B83372867C7CAC43C926779AF546848A /* lmem.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E22EC671C42695AEF145EECDC239020 /* lmem.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BA3CAD5185AF6CB96AEC8BA05604D79A /* wax_class.h in Headers */ = {isa = PBXBuildFile; fileRef = DD8696A31BA6B9DBBA2C6A91E7F99524 /* wax_class.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BBCE293DFEF4043C4A8836777D0867B5 /* wax_gc.h in Headers */ = {isa = PBXBuildFile; fileRef = 717B7ABEB49EF2BC70ED40E173E6FEDD /* wax_gc.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BDCAC985DBBE4096CE8F622C4F6529B6 /* loadlib.c in Sources */ = {isa = PBXBuildFile; fileRef = 0A97DAEDB7D5E1E3690135A28AAE8D36 /* loadlib.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BED292A43F0AD51ECB812614ECA3B6B3 /* wax_helpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A0A2F4F68F4C61FCF8A01EA39A184F8 /* wax_helpers.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BF994647D31651CF627E82048697E1BB /* lmathlib.c in Sources */ = {isa = PBXBuildFile; fileRef = 15A78960FE3F1C17372D195AF49F99C6 /* lmathlib.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BFA8E39404D6B04B303EFB628136EE5F /* wax_stdlib.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6C73B6E833E8DAB7A1F0079FC90E30 /* wax_stdlib.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C1ADD2F9A2FB9BB337CB4E6D4D35093B /* UIKitFunction_lua.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E49CAEC5BCF25ED994D6AAC7FD50B1 /* UIKitFunction_lua.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C256DA152DE8053A6E3B4A376ACFA41D /* loslib.c in Sources */ = {isa = PBXBuildFile; fileRef = 1E5A167E1FB642CE2303A10993791E11 /* loslib.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C84CD6620C59CBD9F87F6DE2A6529E64 /* lzio.c in Sources */ = {isa = PBXBuildFile; fileRef = 588A5399D0C4A408E45EF33D0AA1AEEC /* lzio.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CA04243E7D56D99ABE4FAEAB8C0A4E21 /* lmem.c in Sources */ = {isa = PBXBuildFile; fileRef = E41F263056917B8CE95B70E11EB9BF07 /* lmem.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CAC8F0D06E9BF2F3A5A233E00D77D19A /* lauxlib.h in Headers */ = {isa = PBXBuildFile; fileRef = 41A0018E3AABDA6A64C0628A8F3CECFD /* lauxlib.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CB1BBDCC10EB13719BA493F31B259019 /* lobject.c in Sources */ = {isa = PBXBuildFile; fileRef = 4468847651E27FF63CFBA98516C81A80 /* lobject.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CBF3F9FF04D7678461C6F58048040138 /* wax_struct.h in Headers */ = {isa = PBXBuildFile; fileRef = 385E215ABBCB9180D5AD24C5520BE0FC /* wax_struct.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CC7132B78584D857CAFB39BEE933671D /* yajl_gen.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D383B9CE5CB7F327743DD7CD7420E4F /* yajl_gen.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CF9C58CAA97953A3BABF68FCDEBE4656 /* lundump.h in Headers */ = {isa = PBXBuildFile; fileRef = 15EF23C1FB74E3956C47702D9F78A8F2 /* lundump.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D0D8730D790A0946D9227915D6958416 /* tolua_push.c in Sources */ = {isa = PBXBuildFile; fileRef = A43D0995478A63ABED1E4E0AA7EFB70B /* tolua_push.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D460C91AEE7D0937160B4C6962C8D1F7 /* objc_runtime_lua.m in Sources */ = {isa = PBXBuildFile; fileRef = 148F41BBA723FB726EC865D2C766BCB9 /* objc_runtime_lua.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D63013173BCF2905887C09287DB7CD3E /* yajl_parser.h in Headers */ = {isa = PBXBuildFile; fileRef = A71A2E19A4F652479659E274E09064AB /* yajl_parser.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D770563B4250545395FDE5AECFE336C5 /* wax_sqlite.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D4516AC27DB1C32A5E69D6FC35A057D /* wax_sqlite.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D9EDE6594AFB4B037A3BE5DACA62E54B /* lstate.c in Sources */ = {isa = PBXBuildFile; fileRef = DD0041629E734732A6511EFBACC382AC /* lstate.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		DB0A7430BD16F51AEE724AE4B2C40B1E /* wax_sqlite.h in Headers */ = {isa = PBXBuildFile; fileRef = A4E679CD9464A58DAE17168ABBE9680F /* wax_sqlite.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DB3FC2DA163B9F3C64C53239CF4AA1F3 /* tolua_event.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C5BDDBE3761D7230A7A68782E5A1A39 /* tolua_event.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		DC3B7039E7D6889F5DD62A5F21AFEF89 /* wax_block_transfer.h in Headers */ = {isa = PBXBuildFile; fileRef = BFC931296A5516DD5EF669F8028367F1 /* wax_block_transfer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DE30F2C7580B8A3EF09FB6BFE955F020 /* wax_block_description.m in Sources */ = {isa = PBXBuildFile; fileRef = 99DDE58FF96B3A9A1122C0AAB3FA53CC /* wax_block_description.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E061972609D5564208F245AB80593A18 /* wax_CGContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 92EDF96130686FDB022FC1A13944D058 /* wax_CGContext.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E12AFADEC0B7191527FFBCF5D5A4E71C /* lapi.h in Headers */ = {isa = PBXBuildFile; fileRef = AF566EE609A55F5F5D98262B25B9975D /* lapi.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E215BD0D889BCB8E661B0809CFD103F7 /* lfunc.c in Sources */ = {isa = PBXBuildFile; fileRef = C4852C7603015F220BC133B25EFE876A /* lfunc.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E24EAC441611066D626CE39D11848CE8 /* wax_http_connection.m in Sources */ = {isa = PBXBuildFile; fileRef = 5282990309A2B2309595A55D055A950B /* wax_http_connection.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E302446123231D23E8AAC83DD0690FA4 /* wax_http.h in Headers */ = {isa = PBXBuildFile; fileRef = 60A3BB6CD60135BFB56E6B1D872B9F2E /* wax_http.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E3E1B36EF1BFDEEEA7C6231E86BA1892 /* liolib.c in Sources */ = {isa = PBXBuildFile; fileRef = 2FAD5C2EBDF6847C151AD3FE23EAC198 /* liolib.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EC7817D1AF6DA884A7B14122A441008D /* wax_block_transfer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FB95C540DE198090F05D608A63F052C /* wax_block_transfer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		ECF2019EF71A7D1FAAC1535964836943 /* wax_block_call_pool.m in Sources */ = {isa = PBXBuildFile; fileRef = 33EE38A59A4999020D1BE6807007FB99 /* wax_block_call_pool.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F03D1876AF81F8BA8E1664230F81D681 /* tolua++.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FBDB4793DA6E6554505DE4F90824E92 /* tolua++.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F10FC70721FAFFE1E3ADDB3D9FC2D7B6 /* yajl_lex.c in Sources */ = {isa = PBXBuildFile; fileRef = 938DDD62C0CC7EC7FAB56E71366D8978 /* yajl_lex.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F2B18FA9C915801A75F86428F58E1A1D /* wax_capi.m in Sources */ = {isa = PBXBuildFile; fileRef = 2812EDA61BABDE1CB2CAC5E1FDCF6E35 /* wax_capi.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F37D417A7FCE17FB3CAC1EEF642D3FB8 /* wax_block_transfer_pool.h in Headers */ = {isa = PBXBuildFile; fileRef = DE98D7D70BE2EDE3073345D199944D3D /* wax_block_transfer_pool.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F61D9EFBCF24F9FCB38613001C5C634A /* wax_lock.h in Headers */ = {isa = PBXBuildFile; fileRef = 86D236CD0D4450B3F7BC50F215DF5FF7 /* wax_lock.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F824526B0E9AA60DFB70AEE9412D4B11 /* wax.h in Headers */ = {isa = PBXBuildFile; fileRef = 74AFBE954BB3E4B03506A520BF976292 /* wax.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F8771215E5A1386129F84D41BF911A5F /* lparser.c in Sources */ = {isa = PBXBuildFile; fileRef = A1B6B99B54F6E8D103F7DAE9B26FC9E5 /* lparser.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FB14FA31B57F2404DD246A7D10D4CF0D /* yajl_alloc.h in Headers */ = {isa = PBXBuildFile; fileRef = F1DDB4FC3E1947FA2ECE9D696ACD7DD1 /* yajl_alloc.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FBD1EA50A336E8FBBBEA26D506DD999F /* wax_server.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8B75953C3849CA12BF9DA9BCC53633 /* wax_server.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FBE4A58A1EA50BD6FF8A0BB8D7E9EA77 /* wax_filesystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9634F0E1C50464606FB813BCF83FDA22 /* wax_filesystem.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FD5277193F58C76E40AB31EF88FFC17E /* yajl.c in Sources */ = {isa = PBXBuildFile; fileRef = 2185041CF93C5301E445BB5A4ADD1C5E /* yajl.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FE13A6C207ECC945F93359E710B16D70 /* NSObject+TBIvarAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = D1ACC122FF64440F1557730BFCB9A266 /* NSObject+TBIvarAccess.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FEEB8C7C9F96A7501BDCB583B6FEC84D /* wax_block.h in Headers */ = {isa = PBXBuildFile; fileRef = 16FC533B4520FB69C1E1252167CB2491 /* wax_block.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EAAC9D717177E5ADA13B513F30CAC8E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7ADB4C5E979130BDAAE29A5E4ADB9186;
+			remoteInfo = wax;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00C029FA2E19B9386ED32C9E61596EEA /* wax_sqlite_operation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = wax_sqlite_operation.m; path = lib/extensions/SQLite/wax_sqlite_operation.m; sourceTree = "<group>"; };
+		0177505995CAC977693B937CDAE4CA0C /* wax_config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = wax_config.h; path = lib/adaptation/wax_config.h; sourceTree = "<group>"; };
+		0A6AED8C28D0E75C5313CBABB73CCC0B /* lauxlib.c */ = {isa = PBXFileReference; includeInIndex = 1; name = lauxlib.c; path = lib/lua/lauxlib.c; sourceTree = "<group>"; };
+		0A97DAEDB7D5E1E3690135A28AAE8D36 /* loadlib.c */ = {isa = PBXFileReference; includeInIndex = 1; name = loadlib.c; path = lib/lua/loadlib.c; sourceTree = "<group>"; };
+		0BF6352CB98934ED948CA95ECB16A7A2 /* wax_lock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = wax_lock.m; path = lib/adaptation/wax_lock.m; sourceTree = "<group>"; };
+		1101CCB841672DF22D190C0DFB702049 /* wax_sqlite_operation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = wax_sqlite_operation.h; path = lib/extensions/SQLite/wax_sqlite_operation.h; sourceTree = "<group>"; };
+		1147467560EA5C3D62B43BCEECC1E655 /* lua.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lua.h; path = lib/lua/lua.h; sourceTree = "<group>"; };
+		12F6E0B82A8DE499E4D11E5C23DCF154 /* wax_struct.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = wax_struct.m; path = lib/wax_struct.m; sourceTree = "<group>"; };
+		13C932047A9080C9E981C4E64E659137 /* ProtocolLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ProtocolLoader.h; path = lib/ProtocolLoader.h; sourceTree = "<group>"; };
+		1429A8CCD8379AA1D341D3BE500AF51E /* wax_server.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = wax_server.h; path = lib/wax_server.h; sourceTree = "<group>"; };
+		148F41BBA723FB726EC865D2C766BCB9 /* objc_runtime_lua.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = objc_runtime_lua.m; path = "lib/extensions/capi/tolua++/bind/objc_runtime_lua.m"; sourceTree = "<group>"; };
+		15A78960FE3F1C17372D195AF49F99C6 /* lmathlib.c */ = {isa = PBXFileReference; includeInIndex = 1; name = lmathlib.c; path = lib/lua/lmathlib.c; sourceTree = "<group>"; };
+		15EF23C1FB74E3956C47702D9F78A8F2 /* lundump.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lundump.h; path = lib/lua/lundump.h; sourceTree = "<group>"; };
+		16FC533B4520FB69C1E1252167CB2491 /* wax_block.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = wax_block.h; path = lib/extensions/block/wax_block.h; sourceTree = "<group>"; };
+		1916D38D2612AB59924A4E872B95A452 /* wax_CGTransform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = wax_CGTransform.h; path = lib/extensions/CGAffine/wax_CGTransform.h; sourceTree = "<group>"; };
+		1D2FD3F9DA1F156C257A0C1269B30836 /* wax_block_call.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = wax_block_call.h; path = lib/extensions/block/wax_block_call.h; sourceTree = "<group>"; };
+		1D4516AC27DB1C32A5E69D6FC35A057D /* wax_sqlite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = wax_sqlite.m; path = lib/extensions/SQLite/wax_sqlite.m; sourceTree = "<group>"; };
+		1E5A167E1FB642CE2303A10993791E11 /* loslib.c */ = {isa = PBXFileReference; includeInIndex = 1; name = loslib.c; path = lib/lua/loslib.c; sourceTree = "<group>"; };
+		2185041CF93C5301E445BB5A4ADD1C5E /* yajl.c */ = {isa = PBXFileReference; includeInIndex = 1; name = yajl.c; path = lib/extensions/json/yajl/yajl.c; sourceTree = "<group>"; };
+		26E49CAEC5BCF25ED994D6AAC7FD50B1 /* UIKitFunction_lua.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UIKitFunction_lua.m; path = "lib/extensions/capi/tolua++/bind/UIKitFunction_lua.m"; sourceTree = "<group>"; };
+		27BD502D8C860211F0ECA7B2D12B949D /* wax_block_call_pool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = wax_block_call_pool.h; path = lib/extensions/block/wax_block_call_pool.h; sourceTree = "<group>"; };
+		2812EDA61BABDE1CB2CAC5E1FDCF6E35 /* wax_capi.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = wax_capi.m; path = lib/extensions/capi/wax_capi.m; sourceTree = "<group>"; };
+		2AEE65725264CEAC8CAFFD038610B050 /* lbaselib.c */ = {isa = PBXFileReference; includeInIndex = 1; name = lbaselib.c; path = lib/lua/lbaselib.c; sourceTree = "<group>"; };
+		2C7D581DEB7C411E8E413A9716BD0334 /* ltable.c */ = {isa = PBXFileReference; includeInIndex = 1; name = ltable.c; path = lib/lua/ltable.c; sourceTree = "<group>"; };
+		2FAD5C2EBDF6847C151AD3FE23EAC198 /* liolib.c */ = {isa = PBXFileReference; includeInIndex = 1; name = liolib.c; path = lib/lua/liolib.c; sourceTree = "<group>"; };
+		312BEFF7D9ECCE890A69B27C8ACED6D7 /* lopcodes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lopcodes.h; path = lib/lua/lopcodes.h; sourceTree = "<group>"; };
+		33EE38A59A4999020D1BE6807007FB99 /* wax_block_call_pool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = wax_block_call_pool.m; path = lib/extensions/block/wax_block_call_pool.m; sourceTree = "<group>"; };
+		37F1AA2FE7F78919180C1E2F3BC4C6BB /* wax.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = wax.debug.xcconfig; sourceTree = "<group>"; };
+		384DBB82A4A2D466CA8786226C93A03E /* ldump.c */ = {isa = PBXFileReference; includeInIndex = 1; name = ldump.c; path = lib/lua/ldump.c; sourceTree = "<group>"; };
+		385E215ABBCB9180D5AD24C5520BE0FC /* wax_struct.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = wax_struct.h; path = lib/wax_struct.h; sourceTree = "<group>"; };
+		388DCA75B6AA9452B70C0E05C595CEA5 /* ldo.c */ = {isa = PBXFileReference; includeInIndex = 1; name = ldo.c; path = lib/lua/ldo.c; sourceTree = "<group>"; };
+		3E0DB6099ACBB75F0D77E26B2981A723 /* lcode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lcode.h; path = lib/lua/lcode.h; sourceTree = "<group>"; };
+		3ED9BC188FC7B3828F29CC4F58878113 /* pthread_lua.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = pthread_lua.m; path = "lib/extensions/capi/tolua++/bind/pthread_lua.m"; sourceTree = "<group>"; };
+		3FBDB4793DA6E6554505DE4F90824E92 /* tolua++.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "tolua++.h"; path = "lib/extensions/capi/tolua++/tolua++.h"; sourceTree = "<group>"; };
+		40BBD3484B3F0A6008DA1EBAE5598B7F /* lgc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lgc.h; path = lib/lua/lgc.h; sourceTree = "<group>"; };
+		41A0018E3AABDA6A64C0628A8F3CECFD /* lauxlib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lauxlib.h; path = lib/lua/lauxlib.h; sourceTree = "<group>"; };
+		4468847651E27FF63CFBA98516C81A80 /* lobject.c */ = {isa = PBXFileReference; includeInIndex = 1; name = lobject.c; path = lib/lua/lobject.c; sourceTree = "<group>"; };
+		4CF2DE141EB4C801A58742F8C53D6892 /* libPods-TestWaxPod.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TestWaxPod.a"; path = "libPods-TestWaxPod.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EC3A9B691B318E4A149AA919C778C90 /* Pods-TestWaxPod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestWaxPod.debug.xcconfig"; sourceTree = "<group>"; };
+		4FDAB26101EF9186F7B8089CCC5ED0A3 /* yajl_parse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = yajl_parse.h; path = lib/extensions/json/yajl/api/yajl_parse.h; sourceTree = "<group>"; };
+		509B74D9CAC09B42355BA44D2021AF09 /* Pods-TestWaxPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestWaxPod-dummy.m"; sourceTree = "<group>"; };
+		50AE367E03DBEA139194C20595BB34EF /* llex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = llex.h; path = lib/lua/llex.h; sourceTree = "<group>"; };
+		5204A6C3A042299E9C18DC72B28460E4 /* wax_CGTransform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = wax_CGTransform.m; path = lib/extensions/CGAffine/wax_CGTransform.m; sourceTree = "<group>"; };
+		521540249173C4C2BD38EC17DDF265AD /* lualib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lualib.h; path = lib/lua/lualib.h; sourceTree = "<group>"; };
+		5282990309A2B2309595A55D055A950B /* wax_http_connection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = wax_http_connection.m; path = lib/extensions/HTTP/wax_http_connection.m; sourceTree = "<group>"; };
+		55DC28AA9F5B92756B4AADB344201970 /* wax_json.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = wax_json.h; path = lib/extensions/json/wax_json.h; sourceTree = "<group>"; };
+		56069547B45D7EB7C14E289FC2C0EA6A /* libwax.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libwax.a; path = libwax.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		588A5399D0C4A408E45EF33D0AA1AEEC /* lzio.c */ = {isa = PBXFileReference; includeInIndex = 1; name = lzio.c; path = lib/lua/lzio.c; sourceTree = "<group>"; };
+		58EDAEF07DE92FFBFDD401F5F9031829 /* llex.c */ = {isa = PBXFileReference; includeInIndex = 1; name = llex.c; path = lib/lua/llex.c; sourceTree = "<group>"; };
+		5A0A2F4F68F4C61FCF8A01EA39A184F8 /* wax_helpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = wax_helpers.h; path = lib/wax_helpers.h; sourceTree = "<group>"; };
+		5B7593A77511092AE0ACA445D2507C0C /* llimits.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = llimits.h; path = lib/lua/llimits.h; sourceTree = "<group>"; };
+		5FB95C540DE198090F05D608A63F052C /* wax_block_transfer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = wax_block_transfer.m; path = lib/extensions/block/wax_block_transfer.m; sourceTree = "<group>"; };
+		5FE6E00497118C20D90F786F6ACAE9F2 /* wax_instance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = wax_instance.h; path = lib/wax_instance.h; sourceTree = "<group>"; };
+		60A3BB6CD60135BFB56E6B1D872B9F2E /* wax_http.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = wax_http.h; path = lib/extensions/HTTP/wax_http.h; sourceTree = "<group>"; };
+		62FFABE80D2E9839A6B594138749BB94 /* lfunc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lfunc.h; path = lib/lua/lfunc.h; sourceTree = "<group>"; };
+		6329DCDE3BDB14BC6821EB3F31083DFE /* wax_filesystem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = wax_filesystem.h; path = lib/extensions/filesystem/wax_filesystem.h; sourceTree = "<group>"; };
+		63883A5A6F040DB17D98D4483D66E7C3 /* tolua_to.c */ = {isa = PBXFileReference; includeInIndex = 1; name = tolua_to.c; path = "lib/extensions/capi/tolua++/tolua_to.c"; sourceTree = "<group>"; };
+		65991517DFEAAF139C398F6F25AA433D /* lparser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lparser.h; path = lib/lua/lparser.h; sourceTree = "<group>"; };
+		6647B27A8B3CAFB203E470F8E24D9B26 /* yajl_alloc.c */ = {isa = PBXFileReference; includeInIndex = 1; name = yajl_alloc.c; path = lib/extensions/json/yajl/yajl_alloc.c; sourceTree = "<group>"; };
+		6BB2CA830E2B80B5331ED49D0D435832 /* wax_gc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = wax_gc.m; path = lib/wax_gc.m; sourceTree = "<group>"; };
+		6D383B9CE5CB7F327743DD7CD7420E4F /* yajl_gen.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = yajl_gen.h; path = lib/extensions/json/yajl/api/yajl_gen.h; sourceTree = "<group>"; };
+		7026716BB625E2B9CDE2F929843D1BF3 /* ltm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ltm.h; path = lib/lua/ltm.h; sourceTree = "<group>"; };
+		71276A04FA013D2562B66B479D616288 /* tolua_event.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tolua_event.h; path = "lib/extensions/capi/tolua++/tolua_event.h"; sourceTree = "<group>"; };
+		717B7ABEB49EF2BC70ED40E173E6FEDD /* wax_gc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = wax_gc.h; path = lib/wax_gc.h; sourceTree = "<group>"; };
+		73598CF06FFF0B269B0CB682BADDF092 /* wax_helpers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = wax_helpers.m; path = lib/wax_helpers.m; sourceTree = "<group>"; };
+		74AFBE954BB3E4B03506A520BF976292 /* wax.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = wax.h; path = lib/wax.h; sourceTree = "<group>"; };
+		76943F40FFCB17D38EA7DA3118AFC62C /* wax_class.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = wax_class.m; path = lib/wax_class.m; sourceTree = "<group>"; };
+		76B1F84C5C096BD33CCF06CEF1778B25 /* Pods-TestWaxPod-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestWaxPod-acknowledgements.plist"; sourceTree = "<group>"; };
+		789435CA9A7A5675F28C1C1CBF5C740D /* wax_config.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = wax_config.m; path = lib/adaptation/wax_config.m; sourceTree = "<group>"; };
+		78A2B3438802AEA8D24D1C6BEE0DAD94 /* yajl_parser.c */ = {isa = PBXFileReference; includeInIndex = 1; name = yajl_parser.c; path = lib/extensions/json/yajl/yajl_parser.c; sourceTree = "<group>"; };
+		7A9EB06425326EF9EF20C7AC48074FB6 /* lstring.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lstring.h; path = lib/lua/lstring.h; sourceTree = "<group>"; };
+		7E1A8F3490B84AA069276DA5EBFC9A45 /* wax_block_description.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = wax_block_description.h; path = lib/extensions/block/wax_block_description.h; sourceTree = "<group>"; };
+		7E22EC671C42695AEF145EECDC239020 /* lmem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lmem.h; path = lib/lua/lmem.h; sourceTree = "<group>"; };
+		7F726D5C9ED0E0E67BE39F62555BED80 /* Pods-TestWaxPod-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestWaxPod-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7F9EBFDA5EBAE0561378B6136F49A8C1 /* wax_define.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = wax_define.h; path = lib/wax_define.h; sourceTree = "<group>"; };
+		819456967360E8ABAB21042D6DA28DBB /* wax.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = wax.release.xcconfig; sourceTree = "<group>"; };
+		819AC24CEAC51E582F8F31E3EAD3635B /* wax_xml.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = wax_xml.h; path = lib/extensions/xml/wax_xml.h; sourceTree = "<group>"; };
+		86A51E731DAEAA62F05A27AC31F23FF5 /* wax_json.c */ = {isa = PBXFileReference; includeInIndex = 1; name = wax_json.c; path = lib/extensions/json/wax_json.c; sourceTree = "<group>"; };
+		86D236CD0D4450B3F7BC50F215DF5FF7 /* wax_lock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = wax_lock.h; path = lib/adaptation/wax_lock.h; sourceTree = "<group>"; };
+		893867B9A16A338E6BE3042BCB20B471 /* wax_http_connection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = wax_http_connection.h; path = lib/extensions/HTTP/wax_http_connection.h; sourceTree = "<group>"; };
+		8B100C0B3B1F73D7581AF0A13EE77D12 /* lvm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lvm.h; path = lib/lua/lvm.h; sourceTree = "<group>"; };
+		8C02519B45E6121EB3AA5D422B3F5501 /* lopcodes.c */ = {isa = PBXFileReference; includeInIndex = 1; name = lopcodes.c; path = lib/lua/lopcodes.c; sourceTree = "<group>"; };
+		8C23F1979C279B99417664B66B809CD7 /* yajl_common.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = yajl_common.h; path = lib/extensions/json/yajl/api/yajl_common.h; sourceTree = "<group>"; };
+		8C5BDDBE3761D7230A7A68782E5A1A39 /* tolua_event.c */ = {isa = PBXFileReference; includeInIndex = 1; name = tolua_event.c; path = "lib/extensions/capi/tolua++/tolua_event.c"; sourceTree = "<group>"; };
+		8CA88B0E30E00278C4EB1EC87FFCCC55 /* wax_xml.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = wax_xml.m; path = lib/extensions/xml/wax_xml.m; sourceTree = "<group>"; };
+		919D4EB749BE258E2CB75542DD75EDE1 /* NSObject+TBIvarAccess.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+TBIvarAccess.h"; path = "lib/extensions/ivar/NSObject+TBIvarAccess.h"; sourceTree = "<group>"; };
+		92EDF96130686FDB022FC1A13944D058 /* wax_CGContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = wax_CGContext.m; path = lib/extensions/CGContext/wax_CGContext.m; sourceTree = "<group>"; };
+		938DDD62C0CC7EC7FAB56E71366D8978 /* yajl_lex.c */ = {isa = PBXFileReference; includeInIndex = 1; name = yajl_lex.c; path = lib/extensions/json/yajl/yajl_lex.c; sourceTree = "<group>"; };
+		95C9B074CCEB5E34D85F4DFEB6E2550D /* ltm.c */ = {isa = PBXFileReference; includeInIndex = 1; name = ltm.c; path = lib/lua/ltm.c; sourceTree = "<group>"; };
+		9634F0E1C50464606FB813BCF83FDA22 /* wax_filesystem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = wax_filesystem.m; path = lib/extensions/filesystem/wax_filesystem.m; sourceTree = "<group>"; };
+		98322EB8B603FE028901DC76B6140C5B /* lzio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lzio.h; path = lib/lua/lzio.h; sourceTree = "<group>"; };
+		99DDE58FF96B3A9A1122C0AAB3FA53CC /* wax_block_description.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = wax_block_description.m; path = lib/extensions/block/wax_block_description.m; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FF7C4F84940E423CCBC5DF9B749A0F5 /* wax-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "wax-prefix.pch"; sourceTree = "<group>"; };
+		A036C2F1F9F0D35DFFACCFA8C4198153 /* luaconf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = luaconf.h; path = lib/lua/luaconf.h; sourceTree = "<group>"; };
+		A10FA14AE6130DDE2A4ADE23F1A1EB1B /* yajl_buf.c */ = {isa = PBXFileReference; includeInIndex = 1; name = yajl_buf.c; path = lib/extensions/json/yajl/yajl_buf.c; sourceTree = "<group>"; };
+		A1A23C3F8B171E109FBFFAFEFFBA6D8F /* wax_instance.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = wax_instance.m; path = lib/wax_instance.m; sourceTree = "<group>"; };
+		A1B0EFA4499916AF8EFDF3D46BE46543 /* ltablib.c */ = {isa = PBXFileReference; includeInIndex = 1; name = ltablib.c; path = lib/lua/ltablib.c; sourceTree = "<group>"; };
+		A1B6B99B54F6E8D103F7DAE9B26FC9E5 /* lparser.c */ = {isa = PBXFileReference; includeInIndex = 1; name = lparser.c; path = lib/lua/lparser.c; sourceTree = "<group>"; };
+		A43D0995478A63ABED1E4E0AA7EFB70B /* tolua_push.c */ = {isa = PBXFileReference; includeInIndex = 1; name = tolua_push.c; path = "lib/extensions/capi/tolua++/tolua_push.c"; sourceTree = "<group>"; };
+		A4E679CD9464A58DAE17168ABBE9680F /* wax_sqlite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = wax_sqlite.h; path = lib/extensions/SQLite/wax_sqlite.h; sourceTree = "<group>"; };
+		A64F2866C7538C55F909C337B723D946 /* lvm.c */ = {isa = PBXFileReference; includeInIndex = 1; name = lvm.c; path = lib/lua/lvm.c; sourceTree = "<group>"; };
+		A71A2E19A4F652479659E274E09064AB /* yajl_parser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = yajl_parser.h; path = lib/extensions/json/yajl/yajl_parser.h; sourceTree = "<group>"; };
+		A8AF4D9AA74DE3713175B2D9C369DD45 /* lstring.c */ = {isa = PBXFileReference; includeInIndex = 1; name = lstring.c; path = lib/lua/lstring.c; sourceTree = "<group>"; };
+		AB8B75953C3849CA12BF9DA9BCC53633 /* wax_server.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = wax_server.m; path = lib/wax_server.m; sourceTree = "<group>"; };
+		AD27E4E92E4599F5FF6878554A07B0B3 /* wax-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "wax-dummy.m"; sourceTree = "<group>"; };
+		AF566EE609A55F5F5D98262B25B9975D /* lapi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lapi.h; path = lib/lua/lapi.h; sourceTree = "<group>"; };
+		B0D14EF38EEC88622B17413695BF6CB6 /* lcode.c */ = {isa = PBXFileReference; includeInIndex = 1; name = lcode.c; path = lib/lua/lcode.c; sourceTree = "<group>"; };
+		B1B033508297BC7EB86CA581489F35AB /* wax_block_call.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = wax_block_call.m; path = lib/extensions/block/wax_block_call.m; sourceTree = "<group>"; };
+		B3D6E7C53EFD946DF466CAD61BAAE3E7 /* yajl_encode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = yajl_encode.h; path = lib/extensions/json/yajl/yajl_encode.h; sourceTree = "<group>"; };
+		B44FC2D83958DF5BB0B8609A9A82A4F8 /* print.c */ = {isa = PBXFileReference; includeInIndex = 1; name = print.c; path = lib/lua/print.c; sourceTree = "<group>"; };
+		B50104B38D5DB4957913F3E7A0E4673B /* tolua_is.c */ = {isa = PBXFileReference; includeInIndex = 1; name = tolua_is.c; path = "lib/extensions/capi/tolua++/tolua_is.c"; sourceTree = "<group>"; };
+		B54990D7C512C959724A20E897C4971D /* lstate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lstate.h; path = lib/lua/lstate.h; sourceTree = "<group>"; };
+		B778926F0879863D78547824C8527C1C /* Pods-TestWaxPod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestWaxPod.release.xcconfig"; sourceTree = "<group>"; };
+		B9FB97F180DCB4650349DAD9206CD3E9 /* wax_http.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = wax_http.m; path = lib/extensions/HTTP/wax_http.m; sourceTree = "<group>"; };
+		BEC42011372C649D162591B5A2806C4C /* lgc.c */ = {isa = PBXFileReference; includeInIndex = 1; name = lgc.c; path = lib/lua/lgc.c; sourceTree = "<group>"; };
+		BF13B43882580F800228926D7D8CEACF /* ldebug.c */ = {isa = PBXFileReference; includeInIndex = 1; name = ldebug.c; path = lib/lua/ldebug.c; sourceTree = "<group>"; };
+		BF64F80F573D9875EE1144F256D590DF /* lobject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lobject.h; path = lib/lua/lobject.h; sourceTree = "<group>"; };
+		BFC931296A5516DD5EF669F8028367F1 /* wax_block_transfer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = wax_block_transfer.h; path = lib/extensions/block/wax_block_transfer.h; sourceTree = "<group>"; };
+		C00020B1DF61EC6D2E4AFC45EE95E5C1 /* dispatch_lua.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = dispatch_lua.m; path = "lib/extensions/capi/tolua++/bind/dispatch_lua.m"; sourceTree = "<group>"; };
+		C09F8485D0D8081E9B4355DDB5B317AF /* lstrlib.c */ = {isa = PBXFileReference; includeInIndex = 1; name = lstrlib.c; path = lib/lua/lstrlib.c; sourceTree = "<group>"; };
+		C13D622ADAD7AD893AFA6678D031E9C4 /* ltable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ltable.h; path = lib/lua/ltable.h; sourceTree = "<group>"; };
+		C4852C7603015F220BC133B25EFE876A /* lfunc.c */ = {isa = PBXFileReference; includeInIndex = 1; name = lfunc.c; path = lib/lua/lfunc.c; sourceTree = "<group>"; };
+		C546415782B5DF48D94348B606549E8A /* wax.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = wax.m; path = lib/wax.m; sourceTree = "<group>"; };
+		C61643EBD072C2391B2E122662D630B6 /* yajl_buf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = yajl_buf.h; path = lib/extensions/json/yajl/yajl_buf.h; sourceTree = "<group>"; };
+		C82AE78EC7B0A6DEFEB1241E18ED2C36 /* lapi.c */ = {isa = PBXFileReference; includeInIndex = 1; name = lapi.c; path = lib/lua/lapi.c; sourceTree = "<group>"; };
+		CA82AD144121FD1E2F8051759BEFE1D2 /* wax_capi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = wax_capi.h; path = lib/extensions/capi/wax_capi.h; sourceTree = "<group>"; };
+		CC71BBAC20F851F90DC01CEEAEB86339 /* wax_CGContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = wax_CGContext.h; path = lib/extensions/CGContext/wax_CGContext.h; sourceTree = "<group>"; };
+		CCF7EA5654645139F8E976A0E6C608B2 /* yajl_bytestack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = yajl_bytestack.h; path = lib/extensions/json/yajl/yajl_bytestack.h; sourceTree = "<group>"; };
+		D1ACC122FF64440F1557730BFCB9A266 /* NSObject+TBIvarAccess.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+TBIvarAccess.m"; path = "lib/extensions/ivar/NSObject+TBIvarAccess.m"; sourceTree = "<group>"; };
+		D4E0BB18963741D6C9C33368FEE5FBC8 /* linit.c */ = {isa = PBXFileReference; includeInIndex = 1; name = linit.c; path = lib/lua/linit.c; sourceTree = "<group>"; };
+		D8AF2E792C02249B0EA8E09860E4E1D5 /* wax_block.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = wax_block.m; path = lib/extensions/block/wax_block.m; sourceTree = "<group>"; };
+		DC5348B20424C1EFEC2CC9BDD611324D /* yajl_lex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = yajl_lex.h; path = lib/extensions/json/yajl/yajl_lex.h; sourceTree = "<group>"; };
+		DD0041629E734732A6511EFBACC382AC /* lstate.c */ = {isa = PBXFileReference; includeInIndex = 1; name = lstate.c; path = lib/lua/lstate.c; sourceTree = "<group>"; };
+		DD7BEC1A3EB58457025F24FF0648D3F1 /* ldebug.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ldebug.h; path = lib/lua/ldebug.h; sourceTree = "<group>"; };
+		DD8696A31BA6B9DBBA2C6A91E7F99524 /* wax_class.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = wax_class.h; path = lib/wax_class.h; sourceTree = "<group>"; };
+		DE98D7D70BE2EDE3073345D199944D3D /* wax_block_transfer_pool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = wax_block_transfer_pool.h; path = lib/extensions/block/wax_block_transfer_pool.h; sourceTree = "<group>"; };
+		DFBB935AC62E8D4C0124E699D8C1F2D4 /* yajl_encode.c */ = {isa = PBXFileReference; includeInIndex = 1; name = yajl_encode.c; path = lib/extensions/json/yajl/yajl_encode.c; sourceTree = "<group>"; };
+		E41F263056917B8CE95B70E11EB9BF07 /* lmem.c */ = {isa = PBXFileReference; includeInIndex = 1; name = lmem.c; path = lib/lua/lmem.c; sourceTree = "<group>"; };
+		E45CBE8A76C2815D45496DBB07EE1158 /* tolua_map.c */ = {isa = PBXFileReference; includeInIndex = 1; name = tolua_map.c; path = "lib/extensions/capi/tolua++/tolua_map.c"; sourceTree = "<group>"; };
+		EAE1DE99D978407334F053A5DE9535AF /* lundump.c */ = {isa = PBXFileReference; includeInIndex = 1; name = lundump.c; path = lib/lua/lundump.c; sourceTree = "<group>"; };
+		EDE93346965B611E6C5DD6CA42D7D783 /* ldblib.c */ = {isa = PBXFileReference; includeInIndex = 1; name = ldblib.c; path = lib/lua/ldblib.c; sourceTree = "<group>"; };
+		EE8E9AE1CA3C8E2EE1BC63CA5F82986B /* yajl_gen.c */ = {isa = PBXFileReference; includeInIndex = 1; name = yajl_gen.c; path = lib/extensions/json/yajl/yajl_gen.c; sourceTree = "<group>"; };
+		EF4204C19E0ADE9C9C8AB23FD3EFD758 /* ldo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ldo.h; path = lib/lua/ldo.h; sourceTree = "<group>"; };
+		F1DDB4FC3E1947FA2ECE9D696ACD7DD1 /* yajl_alloc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = yajl_alloc.h; path = lib/extensions/json/yajl/yajl_alloc.h; sourceTree = "<group>"; };
+		F42C36BD3E4546573CEA7098E29776CA /* wax_block_transfer_pool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = wax_block_transfer_pool.m; path = lib/extensions/block/wax_block_transfer_pool.m; sourceTree = "<group>"; };
+		FE6C73B6E833E8DAB7A1F0079FC90E30 /* wax_stdlib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = wax_stdlib.h; path = lib/wax_stdlib.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03A8E262718EE379E091F313468B448E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C539A4E774AC297A3814DE0BAF4E6F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		442EEA1E4CCD3F08E4876002F0735586 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				64EDAC8A3BD803F80D2AFCC6D0BC7447 /* wax */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		44D35A201B9F0C4397D66754AC1E9EBB /* Pods-TestWaxPod */ = {
+			isa = PBXGroup;
+			children = (
+				7F726D5C9ED0E0E67BE39F62555BED80 /* Pods-TestWaxPod-acknowledgements.markdown */,
+				76B1F84C5C096BD33CCF06CEF1778B25 /* Pods-TestWaxPod-acknowledgements.plist */,
+				509B74D9CAC09B42355BA44D2021AF09 /* Pods-TestWaxPod-dummy.m */,
+				4EC3A9B691B318E4A149AA919C778C90 /* Pods-TestWaxPod.debug.xcconfig */,
+				B778926F0879863D78547824C8527C1C /* Pods-TestWaxPod.release.xcconfig */,
+			);
+			name = "Pods-TestWaxPod";
+			path = "Target Support Files/Pods-TestWaxPod";
+			sourceTree = "<group>";
+		};
+		64EDAC8A3BD803F80D2AFCC6D0BC7447 /* wax */ = {
+			isa = PBXGroup;
+			children = (
+				C00020B1DF61EC6D2E4AFC45EE95E5C1 /* dispatch_lua.m */,
+				C82AE78EC7B0A6DEFEB1241E18ED2C36 /* lapi.c */,
+				AF566EE609A55F5F5D98262B25B9975D /* lapi.h */,
+				0A6AED8C28D0E75C5313CBABB73CCC0B /* lauxlib.c */,
+				41A0018E3AABDA6A64C0628A8F3CECFD /* lauxlib.h */,
+				2AEE65725264CEAC8CAFFD038610B050 /* lbaselib.c */,
+				B0D14EF38EEC88622B17413695BF6CB6 /* lcode.c */,
+				3E0DB6099ACBB75F0D77E26B2981A723 /* lcode.h */,
+				EDE93346965B611E6C5DD6CA42D7D783 /* ldblib.c */,
+				BF13B43882580F800228926D7D8CEACF /* ldebug.c */,
+				DD7BEC1A3EB58457025F24FF0648D3F1 /* ldebug.h */,
+				388DCA75B6AA9452B70C0E05C595CEA5 /* ldo.c */,
+				EF4204C19E0ADE9C9C8AB23FD3EFD758 /* ldo.h */,
+				384DBB82A4A2D466CA8786226C93A03E /* ldump.c */,
+				C4852C7603015F220BC133B25EFE876A /* lfunc.c */,
+				62FFABE80D2E9839A6B594138749BB94 /* lfunc.h */,
+				BEC42011372C649D162591B5A2806C4C /* lgc.c */,
+				40BBD3484B3F0A6008DA1EBAE5598B7F /* lgc.h */,
+				D4E0BB18963741D6C9C33368FEE5FBC8 /* linit.c */,
+				2FAD5C2EBDF6847C151AD3FE23EAC198 /* liolib.c */,
+				58EDAEF07DE92FFBFDD401F5F9031829 /* llex.c */,
+				50AE367E03DBEA139194C20595BB34EF /* llex.h */,
+				5B7593A77511092AE0ACA445D2507C0C /* llimits.h */,
+				15A78960FE3F1C17372D195AF49F99C6 /* lmathlib.c */,
+				E41F263056917B8CE95B70E11EB9BF07 /* lmem.c */,
+				7E22EC671C42695AEF145EECDC239020 /* lmem.h */,
+				0A97DAEDB7D5E1E3690135A28AAE8D36 /* loadlib.c */,
+				4468847651E27FF63CFBA98516C81A80 /* lobject.c */,
+				BF64F80F573D9875EE1144F256D590DF /* lobject.h */,
+				8C02519B45E6121EB3AA5D422B3F5501 /* lopcodes.c */,
+				312BEFF7D9ECCE890A69B27C8ACED6D7 /* lopcodes.h */,
+				1E5A167E1FB642CE2303A10993791E11 /* loslib.c */,
+				A1B6B99B54F6E8D103F7DAE9B26FC9E5 /* lparser.c */,
+				65991517DFEAAF139C398F6F25AA433D /* lparser.h */,
+				DD0041629E734732A6511EFBACC382AC /* lstate.c */,
+				B54990D7C512C959724A20E897C4971D /* lstate.h */,
+				A8AF4D9AA74DE3713175B2D9C369DD45 /* lstring.c */,
+				7A9EB06425326EF9EF20C7AC48074FB6 /* lstring.h */,
+				C09F8485D0D8081E9B4355DDB5B317AF /* lstrlib.c */,
+				2C7D581DEB7C411E8E413A9716BD0334 /* ltable.c */,
+				C13D622ADAD7AD893AFA6678D031E9C4 /* ltable.h */,
+				A1B0EFA4499916AF8EFDF3D46BE46543 /* ltablib.c */,
+				95C9B074CCEB5E34D85F4DFEB6E2550D /* ltm.c */,
+				7026716BB625E2B9CDE2F929843D1BF3 /* ltm.h */,
+				1147467560EA5C3D62B43BCEECC1E655 /* lua.h */,
+				A036C2F1F9F0D35DFFACCFA8C4198153 /* luaconf.h */,
+				521540249173C4C2BD38EC17DDF265AD /* lualib.h */,
+				EAE1DE99D978407334F053A5DE9535AF /* lundump.c */,
+				15EF23C1FB74E3956C47702D9F78A8F2 /* lundump.h */,
+				A64F2866C7538C55F909C337B723D946 /* lvm.c */,
+				8B100C0B3B1F73D7581AF0A13EE77D12 /* lvm.h */,
+				588A5399D0C4A408E45EF33D0AA1AEEC /* lzio.c */,
+				98322EB8B603FE028901DC76B6140C5B /* lzio.h */,
+				919D4EB749BE258E2CB75542DD75EDE1 /* NSObject+TBIvarAccess.h */,
+				D1ACC122FF64440F1557730BFCB9A266 /* NSObject+TBIvarAccess.m */,
+				148F41BBA723FB726EC865D2C766BCB9 /* objc_runtime_lua.m */,
+				B44FC2D83958DF5BB0B8609A9A82A4F8 /* print.c */,
+				13C932047A9080C9E981C4E64E659137 /* ProtocolLoader.h */,
+				3ED9BC188FC7B3828F29CC4F58878113 /* pthread_lua.m */,
+				3FBDB4793DA6E6554505DE4F90824E92 /* tolua++.h */,
+				8C5BDDBE3761D7230A7A68782E5A1A39 /* tolua_event.c */,
+				71276A04FA013D2562B66B479D616288 /* tolua_event.h */,
+				B50104B38D5DB4957913F3E7A0E4673B /* tolua_is.c */,
+				E45CBE8A76C2815D45496DBB07EE1158 /* tolua_map.c */,
+				A43D0995478A63ABED1E4E0AA7EFB70B /* tolua_push.c */,
+				63883A5A6F040DB17D98D4483D66E7C3 /* tolua_to.c */,
+				26E49CAEC5BCF25ED994D6AAC7FD50B1 /* UIKitFunction_lua.m */,
+				74AFBE954BB3E4B03506A520BF976292 /* wax.h */,
+				C546415782B5DF48D94348B606549E8A /* wax.m */,
+				16FC533B4520FB69C1E1252167CB2491 /* wax_block.h */,
+				D8AF2E792C02249B0EA8E09860E4E1D5 /* wax_block.m */,
+				1D2FD3F9DA1F156C257A0C1269B30836 /* wax_block_call.h */,
+				B1B033508297BC7EB86CA581489F35AB /* wax_block_call.m */,
+				27BD502D8C860211F0ECA7B2D12B949D /* wax_block_call_pool.h */,
+				33EE38A59A4999020D1BE6807007FB99 /* wax_block_call_pool.m */,
+				7E1A8F3490B84AA069276DA5EBFC9A45 /* wax_block_description.h */,
+				99DDE58FF96B3A9A1122C0AAB3FA53CC /* wax_block_description.m */,
+				BFC931296A5516DD5EF669F8028367F1 /* wax_block_transfer.h */,
+				5FB95C540DE198090F05D608A63F052C /* wax_block_transfer.m */,
+				DE98D7D70BE2EDE3073345D199944D3D /* wax_block_transfer_pool.h */,
+				F42C36BD3E4546573CEA7098E29776CA /* wax_block_transfer_pool.m */,
+				CA82AD144121FD1E2F8051759BEFE1D2 /* wax_capi.h */,
+				2812EDA61BABDE1CB2CAC5E1FDCF6E35 /* wax_capi.m */,
+				CC71BBAC20F851F90DC01CEEAEB86339 /* wax_CGContext.h */,
+				92EDF96130686FDB022FC1A13944D058 /* wax_CGContext.m */,
+				1916D38D2612AB59924A4E872B95A452 /* wax_CGTransform.h */,
+				5204A6C3A042299E9C18DC72B28460E4 /* wax_CGTransform.m */,
+				DD8696A31BA6B9DBBA2C6A91E7F99524 /* wax_class.h */,
+				76943F40FFCB17D38EA7DA3118AFC62C /* wax_class.m */,
+				0177505995CAC977693B937CDAE4CA0C /* wax_config.h */,
+				789435CA9A7A5675F28C1C1CBF5C740D /* wax_config.m */,
+				7F9EBFDA5EBAE0561378B6136F49A8C1 /* wax_define.h */,
+				6329DCDE3BDB14BC6821EB3F31083DFE /* wax_filesystem.h */,
+				9634F0E1C50464606FB813BCF83FDA22 /* wax_filesystem.m */,
+				717B7ABEB49EF2BC70ED40E173E6FEDD /* wax_gc.h */,
+				6BB2CA830E2B80B5331ED49D0D435832 /* wax_gc.m */,
+				5A0A2F4F68F4C61FCF8A01EA39A184F8 /* wax_helpers.h */,
+				73598CF06FFF0B269B0CB682BADDF092 /* wax_helpers.m */,
+				60A3BB6CD60135BFB56E6B1D872B9F2E /* wax_http.h */,
+				B9FB97F180DCB4650349DAD9206CD3E9 /* wax_http.m */,
+				893867B9A16A338E6BE3042BCB20B471 /* wax_http_connection.h */,
+				5282990309A2B2309595A55D055A950B /* wax_http_connection.m */,
+				5FE6E00497118C20D90F786F6ACAE9F2 /* wax_instance.h */,
+				A1A23C3F8B171E109FBFFAFEFFBA6D8F /* wax_instance.m */,
+				86A51E731DAEAA62F05A27AC31F23FF5 /* wax_json.c */,
+				55DC28AA9F5B92756B4AADB344201970 /* wax_json.h */,
+				86D236CD0D4450B3F7BC50F215DF5FF7 /* wax_lock.h */,
+				0BF6352CB98934ED948CA95ECB16A7A2 /* wax_lock.m */,
+				1429A8CCD8379AA1D341D3BE500AF51E /* wax_server.h */,
+				AB8B75953C3849CA12BF9DA9BCC53633 /* wax_server.m */,
+				A4E679CD9464A58DAE17168ABBE9680F /* wax_sqlite.h */,
+				1D4516AC27DB1C32A5E69D6FC35A057D /* wax_sqlite.m */,
+				1101CCB841672DF22D190C0DFB702049 /* wax_sqlite_operation.h */,
+				00C029FA2E19B9386ED32C9E61596EEA /* wax_sqlite_operation.m */,
+				FE6C73B6E833E8DAB7A1F0079FC90E30 /* wax_stdlib.h */,
+				385E215ABBCB9180D5AD24C5520BE0FC /* wax_struct.h */,
+				12F6E0B82A8DE499E4D11E5C23DCF154 /* wax_struct.m */,
+				819AC24CEAC51E582F8F31E3EAD3635B /* wax_xml.h */,
+				8CA88B0E30E00278C4EB1EC87FFCCC55 /* wax_xml.m */,
+				2185041CF93C5301E445BB5A4ADD1C5E /* yajl.c */,
+				6647B27A8B3CAFB203E470F8E24D9B26 /* yajl_alloc.c */,
+				F1DDB4FC3E1947FA2ECE9D696ACD7DD1 /* yajl_alloc.h */,
+				A10FA14AE6130DDE2A4ADE23F1A1EB1B /* yajl_buf.c */,
+				C61643EBD072C2391B2E122662D630B6 /* yajl_buf.h */,
+				CCF7EA5654645139F8E976A0E6C608B2 /* yajl_bytestack.h */,
+				8C23F1979C279B99417664B66B809CD7 /* yajl_common.h */,
+				DFBB935AC62E8D4C0124E699D8C1F2D4 /* yajl_encode.c */,
+				B3D6E7C53EFD946DF466CAD61BAAE3E7 /* yajl_encode.h */,
+				EE8E9AE1CA3C8E2EE1BC63CA5F82986B /* yajl_gen.c */,
+				6D383B9CE5CB7F327743DD7CD7420E4F /* yajl_gen.h */,
+				938DDD62C0CC7EC7FAB56E71366D8978 /* yajl_lex.c */,
+				DC5348B20424C1EFEC2CC9BDD611324D /* yajl_lex.h */,
+				4FDAB26101EF9186F7B8089CCC5ED0A3 /* yajl_parse.h */,
+				78A2B3438802AEA8D24D1C6BEE0DAD94 /* yajl_parser.c */,
+				A71A2E19A4F652479659E274E09064AB /* yajl_parser.h */,
+				851E6B54D0A45DD4DFD982CDB6C5290A /* Support Files */,
+			);
+			name = wax;
+			path = wax;
+			sourceTree = "<group>";
+		};
+		813AD2CDE846A4D82196093AA7703308 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				44D35A201B9F0C4397D66754AC1E9EBB /* Pods-TestWaxPod */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		851E6B54D0A45DD4DFD982CDB6C5290A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD27E4E92E4599F5FF6878554A07B0B3 /* wax-dummy.m */,
+				9FF7C4F84940E423CCBC5DF9B749A0F5 /* wax-prefix.pch */,
+				37F1AA2FE7F78919180C1E2F3BC4C6BB /* wax.debug.xcconfig */,
+				819456967360E8ABAB21042D6DA28DBB /* wax.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/wax";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				442EEA1E4CCD3F08E4876002F0735586 /* Pods */,
+				DE0A73620DB8BF077FA3932A0FCFD726 /* Products */,
+				813AD2CDE846A4D82196093AA7703308 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE0A73620DB8BF077FA3932A0FCFD726 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CF2DE141EB4C801A58742F8C53D6892 /* libPods-TestWaxPod.a */,
+				56069547B45D7EB7C14E289FC2C0EA6A /* libwax.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		19436D6D8B7881D6AF9880A2BBC3CC57 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F6822A2581F32BEAE77AA375DFBE5C5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E12AFADEC0B7191527FFBCF5D5A4E71C /* lapi.h in Headers */,
+				CAC8F0D06E9BF2F3A5A233E00D77D19A /* lauxlib.h in Headers */,
+				7FA20A5712877C0BF4246A187948D8EC /* lcode.h in Headers */,
+				6A7BA0939A24435CFF808F61BD30AD00 /* ldebug.h in Headers */,
+				6EE14B8EC65E423346FDF9FB91269CF2 /* ldo.h in Headers */,
+				819A109932604BD4D4B85E9FD777B9DC /* lfunc.h in Headers */,
+				723D46ADD8EDC96BDEC6003E1873D02E /* lgc.h in Headers */,
+				B813522CA39E7103A770D37864C6D21C /* llex.h in Headers */,
+				3FAC471543A104DD03DA24FA0D7E7180 /* llimits.h in Headers */,
+				B83372867C7CAC43C926779AF546848A /* lmem.h in Headers */,
+				9274954D3693E7F898765FE27466DAF4 /* lobject.h in Headers */,
+				AF9726EAEAF27C0C4899A19E3704EAA9 /* lopcodes.h in Headers */,
+				70196E0F95FEAEC54AE43B25B69B1E63 /* lparser.h in Headers */,
+				A385E089E78A93300B34196A9EFE601E /* lstate.h in Headers */,
+				0C0B5CC86E2BBD0F6AA1EB0C45DD653E /* lstring.h in Headers */,
+				3367CDA32CDAD6A6C6C8DC995BF7D590 /* ltable.h in Headers */,
+				6AFFCB14B891140B3C68C59C0EDFFF6B /* ltm.h in Headers */,
+				7B6D0367E82F215C64846BAE0E416B62 /* lua.h in Headers */,
+				B32A45CFE60679F3BC4CB651718A1C45 /* luaconf.h in Headers */,
+				A020CCF5CB087B2D73DC7DF1CC48D97C /* lualib.h in Headers */,
+				CF9C58CAA97953A3BABF68FCDEBE4656 /* lundump.h in Headers */,
+				52F23AC3B7F3F35EAAAA5316223BE66C /* lvm.h in Headers */,
+				854A220F05F2EAB81B6673BE2074D450 /* lzio.h in Headers */,
+				B7B89F4F2A678C456C233F0DB6AE1F5C /* NSObject+TBIvarAccess.h in Headers */,
+				3A66AFD6135B714D6F4530B8E81C0A1D /* ProtocolLoader.h in Headers */,
+				F03D1876AF81F8BA8E1664230F81D681 /* tolua++.h in Headers */,
+				6904C65B15229D75F5358BF4117B9FE1 /* tolua_event.h in Headers */,
+				F824526B0E9AA60DFB70AEE9412D4B11 /* wax.h in Headers */,
+				FEEB8C7C9F96A7501BDCB583B6FEC84D /* wax_block.h in Headers */,
+				21D7622C9DD893FA22A99D4CA8738D2C /* wax_block_call.h in Headers */,
+				AA0F5E10A956C85C0D28D609587487CB /* wax_block_call_pool.h in Headers */,
+				2B69B2CC7EBFEC670F4243EABF3C64F9 /* wax_block_description.h in Headers */,
+				DC3B7039E7D6889F5DD62A5F21AFEF89 /* wax_block_transfer.h in Headers */,
+				F37D417A7FCE17FB3CAC1EEF642D3FB8 /* wax_block_transfer_pool.h in Headers */,
+				4DE0B0E0729D2BE44079CEBC5BCF96E0 /* wax_capi.h in Headers */,
+				2688AD61DDA4BAD5230379C9F020760A /* wax_CGContext.h in Headers */,
+				892047F97B952B0EC8C874F6A7744AB5 /* wax_CGTransform.h in Headers */,
+				BA3CAD5185AF6CB96AEC8BA05604D79A /* wax_class.h in Headers */,
+				6FEA1A881E0A3E08714AE052423ED13A /* wax_config.h in Headers */,
+				653636BE4FA3F90CC22D5A2AA2F5E3E2 /* wax_define.h in Headers */,
+				5ABCA9418F42F6F0669073ECEB42B064 /* wax_filesystem.h in Headers */,
+				BBCE293DFEF4043C4A8836777D0867B5 /* wax_gc.h in Headers */,
+				BED292A43F0AD51ECB812614ECA3B6B3 /* wax_helpers.h in Headers */,
+				E302446123231D23E8AAC83DD0690FA4 /* wax_http.h in Headers */,
+				875116817DC52767B086C087248D4904 /* wax_http_connection.h in Headers */,
+				23A23EB7AC5FDCF27544EE917CB64C68 /* wax_instance.h in Headers */,
+				6DC5447887BAC63E978D8DD663867839 /* wax_json.h in Headers */,
+				F61D9EFBCF24F9FCB38613001C5C634A /* wax_lock.h in Headers */,
+				071D48BBE4E9D648B3059AD80191D2BF /* wax_server.h in Headers */,
+				DB0A7430BD16F51AEE724AE4B2C40B1E /* wax_sqlite.h in Headers */,
+				24FB7970A3131D13794553C798F037A6 /* wax_sqlite_operation.h in Headers */,
+				BFA8E39404D6B04B303EFB628136EE5F /* wax_stdlib.h in Headers */,
+				CBF3F9FF04D7678461C6F58048040138 /* wax_struct.h in Headers */,
+				AE57B8F7E22D93313B0C6AF22BFA9CD2 /* wax_xml.h in Headers */,
+				FB14FA31B57F2404DD246A7D10D4CF0D /* yajl_alloc.h in Headers */,
+				2DBF50161E18088979C2A8FF9AE32193 /* yajl_buf.h in Headers */,
+				AE8C6A0C9904B43C08E941897ABFE76C /* yajl_bytestack.h in Headers */,
+				9BF4795B9403E4D0181DAD74221CD690 /* yajl_common.h in Headers */,
+				5ED4B14A6C4C9370AF1077020BD21A67 /* yajl_encode.h in Headers */,
+				CC7132B78584D857CAFB39BEE933671D /* yajl_gen.h in Headers */,
+				66D13A6BCE3B04B8245A54172F9BA25F /* yajl_lex.h in Headers */,
+				2D70B661293CDB9669B6313E57C79FB8 /* yajl_parse.h in Headers */,
+				D63013173BCF2905887C09287DB7CD3E /* yajl_parser.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0B25B7104FF4D5A37F562ECF1AC5EA6D /* Pods-TestWaxPod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53351173C88ADA7ED4653A833E5B12F7 /* Build configuration list for PBXNativeTarget "Pods-TestWaxPod" */;
+			buildPhases = (
+				19436D6D8B7881D6AF9880A2BBC3CC57 /* Headers */,
+				950881365FFB6774229A389A6A5E686B /* Sources */,
+				0C539A4E774AC297A3814DE0BAF4E6F4 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8E0BF4C337816356965454F5EE4F636 /* PBXTargetDependency */,
+			);
+			name = "Pods-TestWaxPod";
+			productName = "Pods-TestWaxPod";
+			productReference = 4CF2DE141EB4C801A58742F8C53D6892 /* libPods-TestWaxPod.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7ADB4C5E979130BDAAE29A5E4ADB9186 /* wax */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21BB2F4B0B22514097A5250E65483DF4 /* Build configuration list for PBXNativeTarget "wax" */;
+			buildPhases = (
+				6F6822A2581F32BEAE77AA375DFBE5C5 /* Headers */,
+				14C0001C970D3BAD12C6535A8C8B096E /* Sources */,
+				03A8E262718EE379E091F313468B448E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wax;
+			productName = wax;
+			productReference = 56069547B45D7EB7C14E289FC2C0EA6A /* libwax.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = DE0A73620DB8BF077FA3932A0FCFD726 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0B25B7104FF4D5A37F562ECF1AC5EA6D /* Pods-TestWaxPod */,
+				7ADB4C5E979130BDAAE29A5E4ADB9186 /* wax */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14C0001C970D3BAD12C6535A8C8B096E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3035AF8777700D4D3003BC74120AA63B /* dispatch_lua.m in Sources */,
+				3444462E2B1850052DC055FD802AFBC1 /* lapi.c in Sources */,
+				206E6C491CFA653BC56E10DF69DD9966 /* lauxlib.c in Sources */,
+				1E84894D73CC56ACF36641EBC68F023A /* lbaselib.c in Sources */,
+				893C26EFC3082F447C8A79EB1C2C8745 /* lcode.c in Sources */,
+				25CB2D967924765041EB1CE80DAB40A3 /* ldblib.c in Sources */,
+				8E84C56C5332B430CB87EFFF3ACEB583 /* ldebug.c in Sources */,
+				11762075C8BC22540763481FE152354D /* ldo.c in Sources */,
+				6357BACDDFB5402BF74CF6BC0DDF7E9F /* ldump.c in Sources */,
+				E215BD0D889BCB8E661B0809CFD103F7 /* lfunc.c in Sources */,
+				A305C1606A0CD228EF5A8BBAD803B5DD /* lgc.c in Sources */,
+				004C0F41CD295C9B8DEDCD42FC9A5B9B /* linit.c in Sources */,
+				E3E1B36EF1BFDEEEA7C6231E86BA1892 /* liolib.c in Sources */,
+				8022DB56D0A32D62F3F721E99F266378 /* llex.c in Sources */,
+				BF994647D31651CF627E82048697E1BB /* lmathlib.c in Sources */,
+				CA04243E7D56D99ABE4FAEAB8C0A4E21 /* lmem.c in Sources */,
+				BDCAC985DBBE4096CE8F622C4F6529B6 /* loadlib.c in Sources */,
+				CB1BBDCC10EB13719BA493F31B259019 /* lobject.c in Sources */,
+				8FF2891ABA6B9FBE1D891FBF87A2E81B /* lopcodes.c in Sources */,
+				C256DA152DE8053A6E3B4A376ACFA41D /* loslib.c in Sources */,
+				F8771215E5A1386129F84D41BF911A5F /* lparser.c in Sources */,
+				D9EDE6594AFB4B037A3BE5DACA62E54B /* lstate.c in Sources */,
+				22E4FB39A9B9431B6B94F3D1F8D04CD7 /* lstring.c in Sources */,
+				8DF961E143F9BCCA7C788FB248BFD524 /* lstrlib.c in Sources */,
+				9461CDE0FE2D696FDFFEB994F2D3F1C8 /* ltable.c in Sources */,
+				33070164425479401F0AE5D924EE9476 /* ltablib.c in Sources */,
+				34FCE778B652374B3C1EE6E80FA24834 /* ltm.c in Sources */,
+				52FBC1AC70803F8C8B8A6B49B25A8506 /* lundump.c in Sources */,
+				42BDF87B2B34A07C42C5216F2149CD2F /* lvm.c in Sources */,
+				C84CD6620C59CBD9F87F6DE2A6529E64 /* lzio.c in Sources */,
+				FE13A6C207ECC945F93359E710B16D70 /* NSObject+TBIvarAccess.m in Sources */,
+				D460C91AEE7D0937160B4C6962C8D1F7 /* objc_runtime_lua.m in Sources */,
+				04651BABA4E73B68177AB0E03DA7EAF8 /* print.c in Sources */,
+				2A9FF2D8A4F9690FDCCB4249BFE11790 /* pthread_lua.m in Sources */,
+				DB3FC2DA163B9F3C64C53239CF4AA1F3 /* tolua_event.c in Sources */,
+				AAF9355D8BDB5D6447877280455C9543 /* tolua_is.c in Sources */,
+				7BE2FD15811238507B042DA22ADCA8CE /* tolua_map.c in Sources */,
+				D0D8730D790A0946D9227915D6958416 /* tolua_push.c in Sources */,
+				A01D7E154F1CB05770A2CC77EE6EAAA5 /* tolua_to.c in Sources */,
+				C1ADD2F9A2FB9BB337CB4E6D4D35093B /* UIKitFunction_lua.m in Sources */,
+				AF542B134F04DCBD08922B87AEE8756C /* wax-dummy.m in Sources */,
+				6C6B693E2D331BC7FEB903F9174BA1CE /* wax.m in Sources */,
+				142479AD7AD5AA4606CC97FDAA23A055 /* wax_block.m in Sources */,
+				7796C2F45A1E6B605084B1D55D732A4B /* wax_block_call.m in Sources */,
+				ECF2019EF71A7D1FAAC1535964836943 /* wax_block_call_pool.m in Sources */,
+				DE30F2C7580B8A3EF09FB6BFE955F020 /* wax_block_description.m in Sources */,
+				EC7817D1AF6DA884A7B14122A441008D /* wax_block_transfer.m in Sources */,
+				A3898252F3FA491FEE6F2077E5D8B16F /* wax_block_transfer_pool.m in Sources */,
+				F2B18FA9C915801A75F86428F58E1A1D /* wax_capi.m in Sources */,
+				E061972609D5564208F245AB80593A18 /* wax_CGContext.m in Sources */,
+				8C691C2824D3C626F2260B27C82C1EBB /* wax_CGTransform.m in Sources */,
+				AFCE325331B0D4568A8F07D2DBF1D155 /* wax_class.m in Sources */,
+				6F2FC0F38DB78E02FB719D8923EECA30 /* wax_config.m in Sources */,
+				FBE4A58A1EA50BD6FF8A0BB8D7E9EA77 /* wax_filesystem.m in Sources */,
+				6B99CE70844F839FA0F2AF4DF8AC2E6B /* wax_gc.m in Sources */,
+				499C0C2A4E5D6168859E3C39E3439E08 /* wax_helpers.m in Sources */,
+				3AB5690F365C7B49FEC1804983ECE28E /* wax_http.m in Sources */,
+				E24EAC441611066D626CE39D11848CE8 /* wax_http_connection.m in Sources */,
+				8918CE8F7A137D233C1D199BDBEEB04D /* wax_instance.m in Sources */,
+				796103C2810D65919DC796BC0A5CF7E4 /* wax_json.c in Sources */,
+				1B983E0309EE97F6ECAE679406D1EEDB /* wax_lock.m in Sources */,
+				FBD1EA50A336E8FBBBEA26D506DD999F /* wax_server.m in Sources */,
+				D770563B4250545395FDE5AECFE336C5 /* wax_sqlite.m in Sources */,
+				274C561083C0C138BDAB4912A5832436 /* wax_sqlite_operation.m in Sources */,
+				9C59E41E804C94E4B58EB866443313EF /* wax_struct.m in Sources */,
+				8EA44A68C51A669AE8C99953A68FC9B3 /* wax_xml.m in Sources */,
+				FD5277193F58C76E40AB31EF88FFC17E /* yajl.c in Sources */,
+				487D0CE867A8005E51B5BDDE1DA69BA0 /* yajl_alloc.c in Sources */,
+				85457C6B0313FA2CB71DD9048F2B8131 /* yajl_buf.c in Sources */,
+				21E3676C3AA26282C39F04B5CED3120F /* yajl_encode.c in Sources */,
+				5CFA99AF0196BDCADA13B042F3C88BFE /* yajl_gen.c in Sources */,
+				F10FC70721FAFFE1E3ADDB3D9FC2D7B6 /* yajl_lex.c in Sources */,
+				39637B8360215842FE6AAD102D7EA0E4 /* yajl_parser.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		950881365FFB6774229A389A6A5E686B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7403F7E53DCE603B7E8E7454F0A2C839 /* Pods-TestWaxPod-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B8E0BF4C337816356965454F5EE4F636 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = wax;
+			target = 7ADB4C5E979130BDAAE29A5E4ADB9186 /* wax */;
+			targetProxy = EAAC9D717177E5ADA13B513F30CAC8E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		09415C7AF0446E3EFD6512E95470E70F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EC3A9B691B318E4A149AA919C778C90 /* Pods-TestWaxPod.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3038E79C1506DB9947DA65A454ADBF6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37F1AA2FE7F78919180C1E2F3BC4C6BB /* wax.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/wax/wax-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = wax;
+				PRODUCT_NAME = wax;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9F3B402C97DC00E7BEA1749337429A4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 819456967360E8ABAB21042D6DA28DBB /* wax.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/wax/wax-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = wax;
+				PRODUCT_NAME = wax;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B421203790196E13D1444682030CB0C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B778926F0879863D78547824C8527C1C /* Pods-TestWaxPod.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21BB2F4B0B22514097A5250E65483DF4 /* Build configuration list for PBXNativeTarget "wax" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3038E79C1506DB9947DA65A454ADBF6F /* Debug */,
+				9F3B402C97DC00E7BEA1749337429A4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53351173C88ADA7ED4653A833E5B12F7 /* Build configuration list for PBXNativeTarget "Pods-TestWaxPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09415C7AF0446E3EFD6512E95470E70F /* Debug */,
+				B421203790196E13D1444682030CB0C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
