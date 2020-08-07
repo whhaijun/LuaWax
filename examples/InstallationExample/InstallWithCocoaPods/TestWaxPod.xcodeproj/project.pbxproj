@@ -14,6 +14,12 @@
 		006181A61BCF578C00B9F155 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 006181A51BCF578C00B9F155 /* Assets.xcassets */; };
 		006181A91BCF578C00B9F155 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 006181A71BCF578C00B9F155 /* LaunchScreen.storyboard */; };
 		F79CF324FBE8D6534706A044 /* libPods-TestWaxPod.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A852C7DAF310D4E9795BB7 /* libPods-TestWaxPod.a */; };
+		F8F727EC24DD43F10047A3CD /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = F8F727E224DD43F10047A3CD /* unzip.c */; };
+		F8F727ED24DD43F10047A3CD /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = F8F727E324DD43F10047A3CD /* zip.c */; };
+		F8F727EE24DD43F10047A3CD /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = F8F727E424DD43F10047A3CD /* ioapi.c */; };
+		F8F727EF24DD43F10047A3CD /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = F8F727E524DD43F10047A3CD /* mztools.c */; };
+		F8F727F024DD43F10047A3CD /* ZipArchive.mm in Sources */ = {isa = PBXBuildFile; fileRef = F8F727EB24DD43F10047A3CD /* ZipArchive.mm */; };
+		F8F727F324DD440A0047A3CD /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8F727F224DD440A0047A3CD /* MainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +36,20 @@
 		6471E43F620A34CEAD0DA9D4 /* Pods-TestWaxPod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestWaxPod.release.xcconfig"; path = "Target Support Files/Pods-TestWaxPod/Pods-TestWaxPod.release.xcconfig"; sourceTree = "<group>"; };
 		C1A852C7DAF310D4E9795BB7 /* libPods-TestWaxPod.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestWaxPod.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E99D7348D27FA9BAD8838BB5 /* Pods-TestWaxPod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestWaxPod.debug.xcconfig"; path = "Target Support Files/Pods-TestWaxPod/Pods-TestWaxPod.debug.xcconfig"; sourceTree = "<group>"; };
+		F8F727E024DD43F10047A3CD /* ZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZipArchive.h; sourceTree = "<group>"; };
+		F8F727E224DD43F10047A3CD /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unzip.c; sourceTree = "<group>"; };
+		F8F727E324DD43F10047A3CD /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zip.c; sourceTree = "<group>"; };
+		F8F727E424DD43F10047A3CD /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioapi.c; sourceTree = "<group>"; };
+		F8F727E524DD43F10047A3CD /* mztools.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mztools.c; sourceTree = "<group>"; };
+		F8F727E624DD43F10047A3CD /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
+		F8F727E724DD43F10047A3CD /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
+		F8F727E824DD43F10047A3CD /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
+		F8F727E924DD43F10047A3CD /* mztools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mztools.h; sourceTree = "<group>"; };
+		F8F727EA24DD43F10047A3CD /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioapi.h; sourceTree = "<group>"; };
+		F8F727EB24DD43F10047A3CD /* ZipArchive.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ZipArchive.mm; sourceTree = "<group>"; };
+		F8F727F124DD440A0047A3CD /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		F8F727F224DD440A0047A3CD /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		F8F727F424DD46780047A3CD /* ProtocolLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProtocolLoader.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +85,7 @@
 		006181981BCF578C00B9F155 /* TestWaxPod */ = {
 			isa = PBXGroup;
 			children = (
+				F8F727DF24DD43F10047A3CD /* ZIP */,
 				0061819C1BCF578C00B9F155 /* AppDelegate.h */,
 				0061819D1BCF578C00B9F155 /* AppDelegate.m */,
 				0061819F1BCF578C00B9F155 /* ViewController.h */,
@@ -74,6 +95,9 @@
 				006181A71BCF578C00B9F155 /* LaunchScreen.storyboard */,
 				006181AA1BCF578C00B9F155 /* Info.plist */,
 				006181991BCF578C00B9F155 /* Supporting Files */,
+				F8F727F124DD440A0047A3CD /* MainViewController.h */,
+				F8F727F224DD440A0047A3CD /* MainViewController.m */,
+				F8F727F424DD46780047A3CD /* ProtocolLoader.h */,
 			);
 			path = TestWaxPod;
 			sourceTree = "<group>";
@@ -100,8 +124,33 @@
 				E99D7348D27FA9BAD8838BB5 /* Pods-TestWaxPod.debug.xcconfig */,
 				6471E43F620A34CEAD0DA9D4 /* Pods-TestWaxPod.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		F8F727DF24DD43F10047A3CD /* ZIP */ = {
+			isa = PBXGroup;
+			children = (
+				F8F727E124DD43F10047A3CD /* minizip */,
+				F8F727E024DD43F10047A3CD /* ZipArchive.h */,
+				F8F727EB24DD43F10047A3CD /* ZipArchive.mm */,
+			);
+			path = ZIP;
+			sourceTree = "<group>";
+		};
+		F8F727E124DD43F10047A3CD /* minizip */ = {
+			isa = PBXGroup;
+			children = (
+				F8F727E224DD43F10047A3CD /* unzip.c */,
+				F8F727E324DD43F10047A3CD /* zip.c */,
+				F8F727E424DD43F10047A3CD /* ioapi.c */,
+				F8F727E524DD43F10047A3CD /* mztools.c */,
+				F8F727E624DD43F10047A3CD /* crypt.h */,
+				F8F727E724DD43F10047A3CD /* zip.h */,
+				F8F727E824DD43F10047A3CD /* unzip.h */,
+				F8F727E924DD43F10047A3CD /* mztools.h */,
+				F8F727EA24DD43F10047A3CD /* ioapi.h */,
+			);
+			path = minizip;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,6 +193,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -200,8 +250,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8F727EE24DD43F10047A3CD /* ioapi.c in Sources */,
 				006181A11BCF578C00B9F155 /* ViewController.m in Sources */,
+				F8F727F024DD43F10047A3CD /* ZipArchive.mm in Sources */,
 				0061819E1BCF578C00B9F155 /* AppDelegate.m in Sources */,
+				F8F727F324DD440A0047A3CD /* MainViewController.m in Sources */,
+				F8F727EC24DD43F10047A3CD /* unzip.c in Sources */,
+				F8F727EF24DD43F10047A3CD /* mztools.c in Sources */,
+				F8F727ED24DD43F10047A3CD /* zip.c in Sources */,
 				0061819B1BCF578C00B9F155 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -351,6 +407,7 @@
 				006181AF1BCF578C00B9F155 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
