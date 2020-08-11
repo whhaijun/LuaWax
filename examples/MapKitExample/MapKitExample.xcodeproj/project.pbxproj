@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		006181861BCF562600B9F155 /* wax_block_description.m in Sources */ = {isa = PBXBuildFile; fileRef = 006181841BCF562600B9F155 /* wax_block_description.m */; settings = {ASSET_TAGS = (); }; };
+		006181861BCF562600B9F155 /* wax_block_description.m in Sources */ = {isa = PBXBuildFile; fileRef = 006181841BCF562600B9F155 /* wax_block_description.m */; };
 		00DAC0D31AF0AE1200206217 /* wax_config.m in Sources */ = {isa = PBXBuildFile; fileRef = 00DAC0CD1AF0AE1200206217 /* wax_config.m */; };
 		00DAC0D51AF0AE1200206217 /* wax_lock.m in Sources */ = {isa = PBXBuildFile; fileRef = 00DAC0D11AF0AE1200206217 /* wax_lock.m */; };
 		00DAC0E41AF0AE1C00206217 /* wax_block.m in Sources */ = {isa = PBXBuildFile; fileRef = 00DAC0D81AF0AE1C00206217 /* wax_block.m */; };
@@ -806,6 +806,7 @@
 				HEADER_SEARCH_PATHS = "$(SDK_ROOT)/usr/include/libxml2";
 				INFOPLIST_FILE = "MapKitExample-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MARKETING_VERSION = 1.0;
 				PRODUCT_NAME = MapKitExample;
 				VALID_ARCHS = "$(ARCHS_STANDARD)";
 				WAX_COMPILE_SCRIPTS = "";
@@ -823,6 +824,7 @@
 				HEADER_SEARCH_PATHS = "$(SDK_ROOT)/usr/include/libxml2";
 				INFOPLIST_FILE = "MapKitExample-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MARKETING_VERSION = 1.0;
 				PRODUCT_NAME = MapKitExample;
 				VALIDATE_PRODUCT = YES;
 				VALID_ARCHS = "$(ARCHS_STANDARD)";

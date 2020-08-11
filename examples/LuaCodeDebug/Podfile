@@ -1,8 +1,10 @@
-platform :ios
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform:ios, '9.0'
 
 
 target 'LuaCodeDebug' do
-	platform:ios, '6.0'
-	pod 'wax', :path=>'../../'
+	# platform:ios, '9.0'
+	pod 'wax', :git => 'https://github.com/philonpang/wax.git'
 	pod 'mobdebug', :path=>'../../tools/mobdebug'
 end

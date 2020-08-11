@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "lauxlib.h"
+//#import "lauxlib.h"
 #import "wax.h"
 #import "ZipArchive.h"
 #import "MainViewController.h"
@@ -75,7 +75,7 @@
             setenv(LUA_PATH, [pp UTF8String], 1);
             wax_start("patch", nil);
             
-            wax_runLuaString("print('hello wax')");
+//            wax_runLuaString("print('hello wax')");
             // reinit MainViewController again
             self.window.rootViewController = [[MainViewController alloc] init];
             [self.window makeKeyAndVisible];
